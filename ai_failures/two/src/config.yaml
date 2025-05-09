@@ -1,0 +1,16 @@
+cell_padding: 0.1
+cell_border_width: 2
+min_contour_area: 50
+max_contour_area: 1000
+tesseract_config: "--psm 10 --oem 3 -c tessedit_char_whitelist=123456789"
+confidence_thresholds:
+  high: 90
+  medium: 50
+  low: 0
+preprocessing:
+  blur_kernel_size: 3
+  threshold_value: 180
+  threshold_type: THRESH_BINARY_INV
+  morph_kernel_size: 3
+save_debug_images: true
+debug_output_dir: logs/debug 

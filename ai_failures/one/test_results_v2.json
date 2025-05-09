@@ -1,0 +1,1676 @@
+[
+  {
+    "grid_number": 1,
+    "image_file": "easy_sudoku_booklet_1_fi_4_sudoku1.png",
+    "accuracy": 74.19354838709677,
+    "correct_count": 23,
+    "total_cells": 31,
+    "cell_results": [
+      {
+        "position": [
+          0,
+          3
+        ],
+        "expected": "1",
+        "expected_confidence": "h",
+        "recognized": "1",
+        "confidence": 95.0,
+        "confidence_level": "high",
+        "method": "template",
+        "is_correct": true
+      },
+      {
+        "position": [
+          1,
+          0
+        ],
+        "expected": "5",
+        "expected_confidence": "h",
+        "recognized": null,
+        "confidence": 0,
+        "confidence_level": "failed",
+        "method": "none",
+        "is_correct": false
+      },
+      {
+        "position": [
+          1,
+          3
+        ],
+        "expected": "4",
+        "expected_confidence": "h",
+        "recognized": "4",
+        "confidence": 96.0,
+        "confidence_level": "high",
+        "method": "template",
+        "is_correct": true
+      },
+      {
+        "position": [
+          1,
+          7
+        ],
+        "expected": "8",
+        "expected_confidence": "h",
+        "recognized": "8",
+        "confidence": 96.0,
+        "confidence_level": "high",
+        "method": "template",
+        "is_correct": true
+      },
+      {
+        "position": [
+          1,
+          8
+        ],
+        "expected": "9",
+        "expected_confidence": "l",
+        "recognized": null,
+        "confidence": 0,
+        "confidence_level": "failed",
+        "method": "none",
+        "is_correct": false
+      },
+      {
+        "position": [
+          2,
+          0
+        ],
+        "expected": "9",
+        "expected_confidence": "h",
+        "recognized": "9",
+        "confidence": 86.0,
+        "confidence_level": "high",
+        "method": "template",
+        "is_correct": true
+      },
+      {
+        "position": [
+          2,
+          1
+        ],
+        "expected": "8",
+        "expected_confidence": "h",
+        "recognized": "8",
+        "confidence": 96.0,
+        "confidence_level": "high",
+        "method": "template",
+        "is_correct": true
+      },
+      {
+        "position": [
+          2,
+          2
+        ],
+        "expected": "1",
+        "expected_confidence": "h",
+        "recognized": "1",
+        "confidence": 93.0,
+        "confidence_level": "high",
+        "method": "template",
+        "is_correct": true
+      },
+      {
+        "position": [
+          2,
+          7
+        ],
+        "expected": "4",
+        "expected_confidence": "h",
+        "recognized": "4",
+        "confidence": 96.0,
+        "confidence_level": "high",
+        "method": "template",
+        "is_correct": true
+      },
+      {
+        "position": [
+          2,
+          8
+        ],
+        "expected": "6",
+        "expected_confidence": "h",
+        "recognized": "6",
+        "confidence": 96.0,
+        "confidence_level": "high",
+        "method": "template",
+        "is_correct": true
+      },
+      {
+        "position": [
+          3,
+          1
+        ],
+        "expected": "7",
+        "expected_confidence": "h",
+        "recognized": null,
+        "confidence": 0,
+        "confidence_level": "failed",
+        "method": "none",
+        "is_correct": false
+      },
+      {
+        "position": [
+          3,
+          4
+        ],
+        "expected": "9",
+        "expected_confidence": "h",
+        "recognized": null,
+        "confidence": 0,
+        "confidence_level": "failed",
+        "method": "none",
+        "is_correct": false
+      },
+      {
+        "position": [
+          3,
+          5
+        ],
+        "expected": "3",
+        "expected_confidence": "h",
+        "recognized": "3",
+        "confidence": 83.0,
+        "confidence_level": "high",
+        "method": "template",
+        "is_correct": true
+      },
+      {
+        "position": [
+          3,
+          8
+        ],
+        "expected": "2",
+        "expected_confidence": "h",
+        "recognized": "2",
+        "confidence": 89.0,
+        "confidence_level": "high",
+        "method": "template",
+        "is_correct": true
+      },
+      {
+        "position": [
+          4,
+          0
+        ],
+        "expected": "4",
+        "expected_confidence": "h",
+        "recognized": "4",
+        "confidence": 96.0,
+        "confidence_level": "high",
+        "method": "template",
+        "is_correct": true
+      },
+      {
+        "position": [
+          4,
+          3
+        ],
+        "expected": "7",
+        "expected_confidence": "h",
+        "recognized": "7",
+        "confidence": 70.0,
+        "confidence_level": "medium",
+        "method": "template",
+        "is_correct": true
+      },
+      {
+        "position": [
+          4,
+          4
+        ],
+        "expected": "5",
+        "expected_confidence": "h",
+        "recognized": null,
+        "confidence": 0,
+        "confidence_level": "failed",
+        "method": "none",
+        "is_correct": false
+      },
+      {
+        "position": [
+          4,
+          7
+        ],
+        "expected": "3",
+        "expected_confidence": "l",
+        "recognized": null,
+        "confidence": 0,
+        "confidence_level": "failed",
+        "method": "none",
+        "is_correct": false
+      },
+      {
+        "position": [
+          5,
+          0
+        ],
+        "expected": "3",
+        "expected_confidence": "h",
+        "recognized": "3",
+        "confidence": 96.0,
+        "confidence_level": "high",
+        "method": "template",
+        "is_correct": true
+      },
+      {
+        "position": [
+          5,
+          3
+        ],
+        "expected": "2",
+        "expected_confidence": "h",
+        "recognized": "2",
+        "confidence": 96.0,
+        "confidence_level": "high",
+        "method": "template",
+        "is_correct": true
+      },
+      {
+        "position": [
+          5,
+          6
+        ],
+        "expected": "8",
+        "expected_confidence": "h",
+        "recognized": "8",
+        "confidence": 96.0,
+        "confidence_level": "high",
+        "method": "template",
+        "is_correct": true
+      },
+      {
+        "position": [
+          6,
+          1
+        ],
+        "expected": "9",
+        "expected_confidence": "l",
+        "recognized": null,
+        "confidence": 0,
+        "confidence_level": "failed",
+        "method": "none",
+        "is_correct": false
+      },
+      {
+        "position": [
+          6,
+          4
+        ],
+        "expected": "2",
+        "expected_confidence": "h",
+        "recognized": "2",
+        "confidence": 96.0,
+        "confidence_level": "high",
+        "method": "template",
+        "is_correct": true
+      },
+      {
+        "position": [
+          6,
+          5
+        ],
+        "expected": "8",
+        "expected_confidence": "h",
+        "recognized": "8",
+        "confidence": 96.0,
+        "confidence_level": "high",
+        "method": "template",
+        "is_correct": true
+      },
+      {
+        "position": [
+          7,
+          0
+        ],
+        "expected": "6",
+        "expected_confidence": "h",
+        "recognized": "6",
+        "confidence": 96.0,
+        "confidence_level": "high",
+        "method": "template",
+        "is_correct": true
+      },
+      {
+        "position": [
+          7,
+          1
+        ],
+        "expected": "5",
+        "expected_confidence": "h",
+        "recognized": null,
+        "confidence": 0,
+        "confidence_level": "failed",
+        "method": "none",
+        "is_correct": false
+      },
+      {
+        "position": [
+          7,
+          4
+        ],
+        "expected": "7",
+        "expected_confidence": "h",
+        "recognized": "7",
+        "confidence": 96.0,
+        "confidence_level": "high",
+        "method": "template",
+        "is_correct": true
+      },
+      {
+        "position": [
+          7,
+          7
+        ],
+        "expected": "2",
+        "expected_confidence": "h",
+        "recognized": "2",
+        "confidence": 96.0,
+        "confidence_level": "high",
+        "method": "template",
+        "is_correct": true
+      },
+      {
+        "position": [
+          8,
+          1
+        ],
+        "expected": "1",
+        "expected_confidence": "h",
+        "recognized": "1",
+        "confidence": 96.0,
+        "confidence_level": "high",
+        "method": "template",
+        "is_correct": true
+      },
+      {
+        "position": [
+          8,
+          3
+        ],
+        "expected": "3",
+        "expected_confidence": "h",
+        "recognized": "3",
+        "confidence": 96.0,
+        "confidence_level": "high",
+        "method": "template",
+        "is_correct": true
+      },
+      {
+        "position": [
+          8,
+          6
+        ],
+        "expected": "6",
+        "expected_confidence": "h",
+        "recognized": "6",
+        "confidence": 96.0,
+        "confidence_level": "high",
+        "method": "template",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "grid_number": 2,
+    "image_file": "easy_sudoku_booklet_1_fi_4_sudoku2.png",
+    "accuracy": 74.19354838709677,
+    "correct_count": 23,
+    "total_cells": 31,
+    "cell_results": [
+      {
+        "position": [
+          0,
+          1
+        ],
+        "expected": "4",
+        "expected_confidence": "h",
+        "recognized": "4",
+        "confidence": 96.0,
+        "confidence_level": "high",
+        "method": "template",
+        "is_correct": true
+      },
+      {
+        "position": [
+          0,
+          2
+        ],
+        "expected": "9",
+        "expected_confidence": "h",
+        "recognized": null,
+        "confidence": 0,
+        "confidence_level": "failed",
+        "method": "none",
+        "is_correct": false
+      },
+      {
+        "position": [
+          0,
+          3
+        ],
+        "expected": "2",
+        "expected_confidence": "h",
+        "recognized": "2",
+        "confidence": 96.0,
+        "confidence_level": "high",
+        "method": "template",
+        "is_correct": true
+      },
+      {
+        "position": [
+          0,
+          6
+        ],
+        "expected": "8",
+        "expected_confidence": "m",
+        "recognized": "8",
+        "confidence": 96.0,
+        "confidence_level": "high",
+        "method": "template",
+        "is_correct": true
+      },
+      {
+        "position": [
+          1,
+          4
+        ],
+        "expected": "3",
+        "expected_confidence": "h",
+        "recognized": "3",
+        "confidence": 81.0,
+        "confidence_level": "high",
+        "method": "template",
+        "is_correct": true
+      },
+      {
+        "position": [
+          1,
+          5
+        ],
+        "expected": "1",
+        "expected_confidence": "h",
+        "recognized": "1",
+        "confidence": 96.0,
+        "confidence_level": "high",
+        "method": "template",
+        "is_correct": true
+      },
+      {
+        "position": [
+          1,
+          7
+        ],
+        "expected": "6",
+        "expected_confidence": "m",
+        "recognized": "6",
+        "confidence": 96.0,
+        "confidence_level": "high",
+        "method": "template",
+        "is_correct": true
+      },
+      {
+        "position": [
+          2,
+          3
+        ],
+        "expected": "4",
+        "expected_confidence": "h",
+        "recognized": "4",
+        "confidence": 96.0,
+        "confidence_level": "high",
+        "method": "template",
+        "is_correct": true
+      },
+      {
+        "position": [
+          2,
+          4
+        ],
+        "expected": "7",
+        "expected_confidence": "h",
+        "recognized": "7",
+        "confidence": 89.0,
+        "confidence_level": "high",
+        "method": "template",
+        "is_correct": true
+      },
+      {
+        "position": [
+          2,
+          5
+        ],
+        "expected": "9",
+        "expected_confidence": "h",
+        "recognized": "9",
+        "confidence": 89.0,
+        "confidence_level": "high",
+        "method": "template",
+        "is_correct": true
+      },
+      {
+        "position": [
+          3,
+          1
+        ],
+        "expected": "6",
+        "expected_confidence": "h",
+        "recognized": "6",
+        "confidence": 96.0,
+        "confidence_level": "high",
+        "method": "template",
+        "is_correct": true
+      },
+      {
+        "position": [
+          3,
+          2
+        ],
+        "expected": "1",
+        "expected_confidence": "h",
+        "recognized": "1",
+        "confidence": 96.0,
+        "confidence_level": "high",
+        "method": "template",
+        "is_correct": true
+      },
+      {
+        "position": [
+          4,
+          0
+        ],
+        "expected": "5",
+        "expected_confidence": "h",
+        "recognized": null,
+        "confidence": 0,
+        "confidence_level": "failed",
+        "method": "none",
+        "is_correct": false
+      },
+      {
+        "position": [
+          4,
+          1
+        ],
+        "expected": "3",
+        "expected_confidence": "h",
+        "recognized": null,
+        "confidence": 0,
+        "confidence_level": "failed",
+        "method": "none",
+        "is_correct": false
+      },
+      {
+        "position": [
+          4,
+          3
+        ],
+        "expected": "9",
+        "expected_confidence": "h",
+        "recognized": null,
+        "confidence": 0,
+        "confidence_level": "failed",
+        "method": "none",
+        "is_correct": false
+      },
+      {
+        "position": [
+          4,
+          8
+        ],
+        "expected": "4",
+        "expected_confidence": "h",
+        "recognized": "4",
+        "confidence": 96.0,
+        "confidence_level": "high",
+        "method": "template",
+        "is_correct": true
+      },
+      {
+        "position": [
+          5,
+          0
+        ],
+        "expected": "8",
+        "expected_confidence": "h",
+        "recognized": "8",
+        "confidence": 96.0,
+        "confidence_level": "high",
+        "method": "template",
+        "is_correct": true
+      },
+      {
+        "position": [
+          5,
+          2
+        ],
+        "expected": "1",
+        "expected_confidence": "h",
+        "recognized": "4",
+        "confidence": 96.0,
+        "confidence_level": "high",
+        "method": "template",
+        "is_correct": false
+      },
+      {
+        "position": [
+          5,
+          3
+        ],
+        "expected": "1",
+        "expected_confidence": "h",
+        "recognized": "1",
+        "confidence": 96.0,
+        "confidence_level": "high",
+        "method": "template",
+        "is_correct": true
+      },
+      {
+        "position": [
+          5,
+          6
+        ],
+        "expected": "3",
+        "expected_confidence": "h",
+        "recognized": "3",
+        "confidence": 96.0,
+        "confidence_level": "high",
+        "method": "template",
+        "is_correct": true
+      },
+      {
+        "position": [
+          6,
+          2
+        ],
+        "expected": "7",
+        "expected_confidence": "h",
+        "recognized": "7",
+        "confidence": 95.0,
+        "confidence_level": "high",
+        "method": "template",
+        "is_correct": true
+      },
+      {
+        "position": [
+          7,
+          2
+        ],
+        "expected": "8",
+        "expected_confidence": "h",
+        "recognized": "8",
+        "confidence": 96.0,
+        "confidence_level": "high",
+        "method": "template",
+        "is_correct": true
+      },
+      {
+        "position": [
+          7,
+          3
+        ],
+        "expected": "6",
+        "expected_confidence": "m",
+        "recognized": "6",
+        "confidence": 96.0,
+        "confidence_level": "high",
+        "method": "template",
+        "is_correct": true
+      },
+      {
+        "position": [
+          7,
+          4
+        ],
+        "expected": "2",
+        "expected_confidence": "h",
+        "recognized": "2",
+        "confidence": 96.0,
+        "confidence_level": "high",
+        "method": "template",
+        "is_correct": true
+      },
+      {
+        "position": [
+          7,
+          5
+        ],
+        "expected": "5",
+        "expected_confidence": "h",
+        "recognized": null,
+        "confidence": 0,
+        "confidence_level": "failed",
+        "method": "none",
+        "is_correct": false
+      },
+      {
+        "position": [
+          7,
+          7
+        ],
+        "expected": "7",
+        "expected_confidence": "h",
+        "recognized": "7",
+        "confidence": 95.0,
+        "confidence_level": "high",
+        "method": "template",
+        "is_correct": true
+      },
+      {
+        "position": [
+          8,
+          0
+        ],
+        "expected": "6",
+        "expected_confidence": "h",
+        "recognized": "6",
+        "confidence": 96.0,
+        "confidence_level": "high",
+        "method": "template",
+        "is_correct": true
+      },
+      {
+        "position": [
+          8,
+          1
+        ],
+        "expected": "5",
+        "expected_confidence": "h",
+        "recognized": null,
+        "confidence": 0,
+        "confidence_level": "failed",
+        "method": "none",
+        "is_correct": false
+      },
+      {
+        "position": [
+          8,
+          2
+        ],
+        "expected": "3",
+        "expected_confidence": "h",
+        "recognized": "3",
+        "confidence": 96.0,
+        "confidence_level": "high",
+        "method": "template",
+        "is_correct": true
+      },
+      {
+        "position": [
+          8,
+          6
+        ],
+        "expected": "9",
+        "expected_confidence": "h",
+        "recognized": null,
+        "confidence": 0,
+        "confidence_level": "failed",
+        "method": "none",
+        "is_correct": false
+      },
+      {
+        "position": [
+          8,
+          7
+        ],
+        "expected": "2",
+        "expected_confidence": "h",
+        "recognized": "2",
+        "confidence": 96.0,
+        "confidence_level": "high",
+        "method": "template",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "grid_number": 3,
+    "image_file": "easy_sudoku_booklet_1_fi_4_sudoku3.png",
+    "accuracy": 75.0,
+    "correct_count": 24,
+    "total_cells": 32,
+    "cell_results": [
+      {
+        "position": [
+          0,
+          0
+        ],
+        "expected": "7",
+        "expected_confidence": "h",
+        "recognized": "7",
+        "confidence": 96.0,
+        "confidence_level": "high",
+        "method": "template",
+        "is_correct": true
+      },
+      {
+        "position": [
+          0,
+          3
+        ],
+        "expected": "4",
+        "expected_confidence": "h",
+        "recognized": "4",
+        "confidence": 96.0,
+        "confidence_level": "high",
+        "method": "template",
+        "is_correct": true
+      },
+      {
+        "position": [
+          0,
+          8
+        ],
+        "expected": "5",
+        "expected_confidence": "h",
+        "recognized": null,
+        "confidence": 0,
+        "confidence_level": "failed",
+        "method": "none",
+        "is_correct": false
+      },
+      {
+        "position": [
+          1,
+          0
+        ],
+        "expected": "8",
+        "expected_confidence": "h",
+        "recognized": "8",
+        "confidence": 96.0,
+        "confidence_level": "high",
+        "method": "template",
+        "is_correct": true
+      },
+      {
+        "position": [
+          1,
+          1
+        ],
+        "expected": "6",
+        "expected_confidence": "h",
+        "recognized": "6",
+        "confidence": 96.0,
+        "confidence_level": "high",
+        "method": "template",
+        "is_correct": true
+      },
+      {
+        "position": [
+          1,
+          3
+        ],
+        "expected": "7",
+        "expected_confidence": "h",
+        "recognized": "7",
+        "confidence": 94.0,
+        "confidence_level": "high",
+        "method": "template",
+        "is_correct": true
+      },
+      {
+        "position": [
+          2,
+          0
+        ],
+        "expected": "3",
+        "expected_confidence": "h",
+        "recognized": "3",
+        "confidence": 96.0,
+        "confidence_level": "high",
+        "method": "template",
+        "is_correct": true
+      },
+      {
+        "position": [
+          2,
+          3
+        ],
+        "expected": "9",
+        "expected_confidence": "h",
+        "recognized": null,
+        "confidence": 0,
+        "confidence_level": "failed",
+        "method": "none",
+        "is_correct": false
+      },
+      {
+        "position": [
+          2,
+          5
+        ],
+        "expected": "2",
+        "expected_confidence": "h",
+        "recognized": "2",
+        "confidence": 96.0,
+        "confidence_level": "high",
+        "method": "template",
+        "is_correct": true
+      },
+      {
+        "position": [
+          3,
+          3
+        ],
+        "expected": "3",
+        "expected_confidence": "h",
+        "recognized": "3",
+        "confidence": 71.0,
+        "confidence_level": "medium",
+        "method": "template",
+        "is_correct": true
+      },
+      {
+        "position": [
+          3,
+          7
+        ],
+        "expected": "8",
+        "expected_confidence": "h",
+        "recognized": "8",
+        "confidence": 96.0,
+        "confidence_level": "high",
+        "method": "template",
+        "is_correct": true
+      },
+      {
+        "position": [
+          3,
+          8
+        ],
+        "expected": "1",
+        "expected_confidence": "h",
+        "recognized": "1",
+        "confidence": 96.0,
+        "confidence_level": "high",
+        "method": "template",
+        "is_correct": true
+      },
+      {
+        "position": [
+          4,
+          0
+        ],
+        "expected": "1",
+        "expected_confidence": "h",
+        "recognized": "1",
+        "confidence": 96.0,
+        "confidence_level": "high",
+        "method": "template",
+        "is_correct": true
+      },
+      {
+        "position": [
+          4,
+          2
+        ],
+        "expected": "9",
+        "expected_confidence": "h",
+        "recognized": null,
+        "confidence": 0,
+        "confidence_level": "failed",
+        "method": "none",
+        "is_correct": false
+      },
+      {
+        "position": [
+          4,
+          6
+        ],
+        "expected": "6",
+        "expected_confidence": "m",
+        "recognized": "6",
+        "confidence": 96.0,
+        "confidence_level": "high",
+        "method": "template",
+        "is_correct": true
+      },
+      {
+        "position": [
+          4,
+          7
+        ],
+        "expected": "3",
+        "expected_confidence": "l",
+        "recognized": null,
+        "confidence": 0,
+        "confidence_level": "failed",
+        "method": "none",
+        "is_correct": false
+      },
+      {
+        "position": [
+          4,
+          8
+        ],
+        "expected": "2",
+        "expected_confidence": "h",
+        "recognized": "2",
+        "confidence": 96.0,
+        "confidence_level": "high",
+        "method": "template",
+        "is_correct": true
+      },
+      {
+        "position": [
+          5,
+          3
+        ],
+        "expected": "8",
+        "expected_confidence": "h",
+        "recognized": "8",
+        "confidence": 96.0,
+        "confidence_level": "high",
+        "method": "template",
+        "is_correct": true
+      },
+      {
+        "position": [
+          5,
+          4
+        ],
+        "expected": "1",
+        "expected_confidence": "h",
+        "recognized": "1",
+        "confidence": 96.0,
+        "confidence_level": "high",
+        "method": "template",
+        "is_correct": true
+      },
+      {
+        "position": [
+          5,
+          5
+        ],
+        "expected": "6",
+        "expected_confidence": "h",
+        "recognized": "6",
+        "confidence": 96.0,
+        "confidence_level": "high",
+        "method": "template",
+        "is_correct": true
+      },
+      {
+        "position": [
+          5,
+          7
+        ],
+        "expected": "5",
+        "expected_confidence": "h",
+        "recognized": null,
+        "confidence": 0,
+        "confidence_level": "failed",
+        "method": "none",
+        "is_correct": false
+      },
+      {
+        "position": [
+          6,
+          0
+        ],
+        "expected": "9",
+        "expected_confidence": "h",
+        "recognized": null,
+        "confidence": 0,
+        "confidence_level": "failed",
+        "method": "none",
+        "is_correct": false
+      },
+      {
+        "position": [
+          6,
+          1
+        ],
+        "expected": "3",
+        "expected_confidence": "h",
+        "recognized": "3",
+        "confidence": 96.0,
+        "confidence_level": "high",
+        "method": "template",
+        "is_correct": true
+      },
+      {
+        "position": [
+          6,
+          3
+        ],
+        "expected": "2",
+        "expected_confidence": "h",
+        "recognized": "2",
+        "confidence": 96.0,
+        "confidence_level": "high",
+        "method": "template",
+        "is_correct": true
+      },
+      {
+        "position": [
+          6,
+          4
+        ],
+        "expected": "8",
+        "expected_confidence": "h",
+        "recognized": "8",
+        "confidence": 96.0,
+        "confidence_level": "high",
+        "method": "template",
+        "is_correct": true
+      },
+      {
+        "position": [
+          6,
+          5
+        ],
+        "expected": "5",
+        "expected_confidence": "l",
+        "recognized": "5",
+        "confidence": 82.0,
+        "confidence_level": "high",
+        "method": "template",
+        "is_correct": true
+      },
+      {
+        "position": [
+          6,
+          6
+        ],
+        "expected": "7",
+        "expected_confidence": "h",
+        "recognized": "7",
+        "confidence": 95.0,
+        "confidence_level": "high",
+        "method": "template",
+        "is_correct": true
+      },
+      {
+        "position": [
+          7,
+          0
+        ],
+        "expected": "5",
+        "expected_confidence": "h",
+        "recognized": null,
+        "confidence": 0,
+        "confidence_level": "failed",
+        "method": "none",
+        "is_correct": false
+      },
+      {
+        "position": [
+          7,
+          4
+        ],
+        "expected": "1",
+        "expected_confidence": "h",
+        "recognized": "4",
+        "confidence": 96.0,
+        "confidence_level": "high",
+        "method": "template",
+        "is_correct": false
+      },
+      {
+        "position": [
+          7,
+          5
+        ],
+        "expected": "7",
+        "expected_confidence": "h",
+        "recognized": "7",
+        "confidence": 96.0,
+        "confidence_level": "high",
+        "method": "template",
+        "is_correct": true
+      },
+      {
+        "position": [
+          7,
+          6
+        ],
+        "expected": "1",
+        "expected_confidence": "m",
+        "recognized": "1",
+        "confidence": 95.0,
+        "confidence_level": "high",
+        "method": "template",
+        "is_correct": true
+      },
+      {
+        "position": [
+          8,
+          0
+        ],
+        "expected": "4",
+        "expected_confidence": "h",
+        "recognized": "4",
+        "confidence": 96.0,
+        "confidence_level": "high",
+        "method": "template",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "grid_number": 4,
+    "image_file": "easy_sudoku_booklet_1_fi_4_sudoku4.png",
+    "accuracy": 75.0,
+    "correct_count": 24,
+    "total_cells": 32,
+    "cell_results": [
+      {
+        "position": [
+          0,
+          1
+        ],
+        "expected": "6",
+        "expected_confidence": "h",
+        "recognized": "6",
+        "confidence": 96.0,
+        "confidence_level": "high",
+        "method": "template",
+        "is_correct": true
+      },
+      {
+        "position": [
+          0,
+          8
+        ],
+        "expected": "9",
+        "expected_confidence": "m",
+        "recognized": "9",
+        "confidence": 93.0,
+        "confidence_level": "high",
+        "method": "template",
+        "is_correct": true
+      },
+      {
+        "position": [
+          1,
+          6
+        ],
+        "expected": "5",
+        "expected_confidence": "h",
+        "recognized": null,
+        "confidence": 0,
+        "confidence_level": "failed",
+        "method": "none",
+        "is_correct": false
+      },
+      {
+        "position": [
+          1,
+          7
+        ],
+        "expected": "8",
+        "expected_confidence": "h",
+        "recognized": "8",
+        "confidence": 96.0,
+        "confidence_level": "high",
+        "method": "template",
+        "is_correct": true
+      },
+      {
+        "position": [
+          1,
+          8
+        ],
+        "expected": "2",
+        "expected_confidence": "m",
+        "recognized": "2",
+        "confidence": 96.0,
+        "confidence_level": "high",
+        "method": "template",
+        "is_correct": true
+      },
+      {
+        "position": [
+          2,
+          0
+        ],
+        "expected": "5",
+        "expected_confidence": "h",
+        "recognized": "4",
+        "confidence": 96.0,
+        "confidence_level": "high",
+        "method": "template",
+        "is_correct": false
+      },
+      {
+        "position": [
+          2,
+          2
+        ],
+        "expected": "3",
+        "expected_confidence": "h",
+        "recognized": "3",
+        "confidence": 96.0,
+        "confidence_level": "high",
+        "method": "template",
+        "is_correct": true
+      },
+      {
+        "position": [
+          2,
+          3
+        ],
+        "expected": "2",
+        "expected_confidence": "h",
+        "recognized": "2",
+        "confidence": 96.0,
+        "confidence_level": "high",
+        "method": "template",
+        "is_correct": true
+      },
+      {
+        "position": [
+          2,
+          4
+        ],
+        "expected": "9",
+        "expected_confidence": "h",
+        "recognized": null,
+        "confidence": 0,
+        "confidence_level": "failed",
+        "method": "none",
+        "is_correct": false
+      },
+      {
+        "position": [
+          2,
+          7
+        ],
+        "expected": "6",
+        "expected_confidence": "h",
+        "recognized": "6",
+        "confidence": 96.0,
+        "confidence_level": "high",
+        "method": "template",
+        "is_correct": true
+      },
+      {
+        "position": [
+          3,
+          0
+        ],
+        "expected": "3",
+        "expected_confidence": "h",
+        "recognized": "3",
+        "confidence": 96.0,
+        "confidence_level": "high",
+        "method": "template",
+        "is_correct": true
+      },
+      {
+        "position": [
+          3,
+          2
+        ],
+        "expected": "5",
+        "expected_confidence": "h",
+        "recognized": null,
+        "confidence": 0,
+        "confidence_level": "failed",
+        "method": "none",
+        "is_correct": false
+      },
+      {
+        "position": [
+          3,
+          3
+        ],
+        "expected": "9",
+        "expected_confidence": "h",
+        "recognized": null,
+        "confidence": 0,
+        "confidence_level": "failed",
+        "method": "none",
+        "is_correct": false
+      },
+      {
+        "position": [
+          3,
+          7
+        ],
+        "expected": "1",
+        "expected_confidence": "h",
+        "recognized": "1",
+        "confidence": 95.0,
+        "confidence_level": "high",
+        "method": "template",
+        "is_correct": true
+      },
+      {
+        "position": [
+          4,
+          0
+        ],
+        "expected": "8",
+        "expected_confidence": "h",
+        "recognized": "8",
+        "confidence": 95.0,
+        "confidence_level": "high",
+        "method": "template",
+        "is_correct": true
+      },
+      {
+        "position": [
+          4,
+          2
+        ],
+        "expected": "6",
+        "expected_confidence": "h",
+        "recognized": "6",
+        "confidence": 96.0,
+        "confidence_level": "high",
+        "method": "template",
+        "is_correct": true
+      },
+      {
+        "position": [
+          4,
+          3
+        ],
+        "expected": "1",
+        "expected_confidence": "l",
+        "recognized": "1",
+        "confidence": 96.0,
+        "confidence_level": "high",
+        "method": "template",
+        "is_correct": true
+      },
+      {
+        "position": [
+          4,
+          7
+        ],
+        "expected": "9",
+        "expected_confidence": "h",
+        "recognized": null,
+        "confidence": 0,
+        "confidence_level": "failed",
+        "method": "none",
+        "is_correct": false
+      },
+      {
+        "position": [
+          4,
+          8
+        ],
+        "expected": "3",
+        "expected_confidence": "h",
+        "recognized": "3",
+        "confidence": 71.0,
+        "confidence_level": "medium",
+        "method": "template",
+        "is_correct": true
+      },
+      {
+        "position": [
+          5,
+          1
+        ],
+        "expected": "2",
+        "expected_confidence": "h",
+        "recognized": "2",
+        "confidence": 96.0,
+        "confidence_level": "high",
+        "method": "template",
+        "is_correct": true
+      },
+      {
+        "position": [
+          5,
+          2
+        ],
+        "expected": "1",
+        "expected_confidence": "h",
+        "recognized": "1",
+        "confidence": 96.0,
+        "confidence_level": "high",
+        "method": "template",
+        "is_correct": true
+      },
+      {
+        "position": [
+          5,
+          3
+        ],
+        "expected": "3",
+        "expected_confidence": "h",
+        "recognized": null,
+        "confidence": 0,
+        "confidence_level": "failed",
+        "method": "none",
+        "is_correct": false
+      },
+      {
+        "position": [
+          7,
+          0
+        ],
+        "expected": "2",
+        "expected_confidence": "h",
+        "recognized": "2",
+        "confidence": 96.0,
+        "confidence_level": "high",
+        "method": "template",
+        "is_correct": true
+      },
+      {
+        "position": [
+          7,
+          3
+        ],
+        "expected": "8",
+        "expected_confidence": "h",
+        "recognized": "8",
+        "confidence": 96.0,
+        "confidence_level": "high",
+        "method": "template",
+        "is_correct": true
+      },
+      {
+        "position": [
+          7,
+          5
+        ],
+        "expected": "1",
+        "expected_confidence": "h",
+        "recognized": "1",
+        "confidence": 95.0,
+        "confidence_level": "high",
+        "method": "template",
+        "is_correct": true
+      },
+      {
+        "position": [
+          7,
+          7
+        ],
+        "expected": "7",
+        "expected_confidence": "h",
+        "recognized": "7",
+        "confidence": 95.0,
+        "confidence_level": "high",
+        "method": "template",
+        "is_correct": true
+      },
+      {
+        "position": [
+          7,
+          8
+        ],
+        "expected": "4",
+        "expected_confidence": "h",
+        "recognized": "4",
+        "confidence": 96.0,
+        "confidence_level": "high",
+        "method": "template",
+        "is_correct": true
+      },
+      {
+        "position": [
+          8,
+          0
+        ],
+        "expected": "7",
+        "expected_confidence": "h",
+        "recognized": "7",
+        "confidence": 96.0,
+        "confidence_level": "high",
+        "method": "template",
+        "is_correct": true
+      },
+      {
+        "position": [
+          8,
+          2
+        ],
+        "expected": "4",
+        "expected_confidence": "h",
+        "recognized": "4",
+        "confidence": 96.0,
+        "confidence_level": "high",
+        "method": "template",
+        "is_correct": true
+      },
+      {
+        "position": [
+          8,
+          3
+        ],
+        "expected": "5",
+        "expected_confidence": "h",
+        "recognized": null,
+        "confidence": 0,
+        "confidence_level": "failed",
+        "method": "none",
+        "is_correct": false
+      },
+      {
+        "position": [
+          8,
+          6
+        ],
+        "expected": "8",
+        "expected_confidence": "h",
+        "recognized": "8",
+        "confidence": 96.0,
+        "confidence_level": "high",
+        "method": "template",
+        "is_correct": true
+      },
+      {
+        "position": [
+          8,
+          8
+        ],
+        "expected": "6",
+        "expected_confidence": "h",
+        "recognized": "6",
+        "confidence": 96.0,
+        "confidence_level": "high",
+        "method": "template",
+        "is_correct": true
+      }
+    ]
+  }
+]

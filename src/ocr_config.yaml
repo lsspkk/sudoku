@@ -1,0 +1,66 @@
+# Tesseract OCR configs found using tests/compare_cells.py
+# These settings produced the correct result for cell_1 (should be 1) and cell_4 (should be 4)
+tesseract_configs:
+  - psm: 6
+    oem: 1
+    thresh: null
+  - psm: 6
+    oem: 1
+    thresh: 127
+  - psm: 6
+    oem: 1
+    thresh: 180
+  - psm: 6
+    oem: 1
+    thresh: 200
+  - psm: 7
+    oem: 1
+    thresh: null
+  - psm: 7
+    oem: 1
+    thresh: 180
+  - psm: 7
+    oem: 1
+    thresh: 200
+  - psm: 10
+    oem: 1
+    thresh: null
+  - psm: 10
+    oem: 1
+    thresh: 180
+  - psm: 10
+    oem: 1
+    thresh: 200
+  - psm: 6
+    oem: 3
+    thresh: null
+  - psm: 6
+    oem: 3
+    thresh: 127
+  - psm: 6
+    oem: 3
+    thresh: 180
+  - psm: 6
+    oem: 3
+    thresh: 200
+  - psm: 7
+    oem: 3
+    thresh: null
+  - psm: 7
+    oem: 3
+    thresh: 180
+  - psm: 7
+    oem: 3
+    thresh: 200
+  - psm: 10
+    oem: 3
+    thresh: null
+  - psm: 10
+    oem: 3
+    thresh: 127
+  - psm: 10
+    oem: 3
+    thresh: 180
+  - psm: 10
+    oem: 3
+    thresh: 200 

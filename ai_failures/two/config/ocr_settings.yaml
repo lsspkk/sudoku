@@ -1,0 +1,23 @@
+# Cell Processing Settings
+cell_padding: 0.1        # Padding around cell content (10% of cell size)
+cell_border_width: 2     # Width of border to exclude from number reading
+min_contour_area: 50     # Minimum area for a contour to be considered content
+max_contour_area: 1000   # Maximum area for a contour to be considered content
+
+# OCR Settings
+tesseract_config: '--psm 10 --oem 3'  # Page segmentation mode and OCR engine mode
+confidence_thresholds:
+  high: 90    # High confidence threshold (>= 90%)
+  medium: 50  # Medium confidence threshold (>= 50%)
+  low: 0      # Low confidence threshold (>= 0%)
+
+# Image Processing
+preprocessing:
+  blur_kernel_size: 3    # Size of Gaussian blur kernel
+  threshold_value: 127   # Binary threshold value
+  threshold_type: 'THRESH_BINARY_INV'  # Threshold type
+  morph_kernel_size: 3   # Size of morphological operation kernel
+
+# Debug Settings
+save_debug_images: true  # Whether to save intermediate processing images
+debug_output_dir: 'logs/debug'  # Directory for debug images 

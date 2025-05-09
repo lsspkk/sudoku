@@ -1,0 +1,449 @@
+Pixel-by-pixel comparison:
+  Mean abs diff: 28.02
+  Std abs diff: 68.15
+  Min diff: 0
+  Max diff: 255
+  Identical pixels: 12122 / 14762
+  Pixels with diff > 32: 2489
+  Diff image saved as tests/cell_diff.png
+
+OCR results for cell_1:
+  oem=1 psm=6 thresh=None: '1' (expected: '1')  <==
+  oem=1 psm=6 thresh=127: '1' (expected: '1')  <==
+  oem=1 psm=6 thresh=180: '1' (expected: '1')  <==
+  oem=1 psm=6 thresh=200: '1' (expected: '1')  <==
+  oem=1 psm=7 thresh=None: '1' (expected: '1')  <==
+  oem=1 psm=7 thresh=127: '1' (expected: '1')  <==
+  oem=1 psm=7 thresh=180: '1' (expected: '1')  <==
+  oem=1 psm=7 thresh=200: '1' (expected: '1')  <==
+  oem=1 psm=8 thresh=None: '4' (expected: '1')
+  oem=1 psm=8 thresh=127: '4' (expected: '1')
+  oem=1 psm=8 thresh=180: '' (expected: '1')
+  oem=1 psm=8 thresh=200: '4' (expected: '1')
+  oem=1 psm=10 thresh=None: '1' (expected: '1')  <==
+  oem=1 psm=10 thresh=127: '1' (expected: '1')  <==
+  oem=1 psm=10 thresh=180: '1' (expected: '1')  <==
+  oem=1 psm=10 thresh=200: '1' (expected: '1')  <==
+  oem=1 psm=11 thresh=None: '' (expected: '1')
+  oem=1 psm=11 thresh=127: '' (expected: '1')
+  oem=1 psm=11 thresh=180: '' (expected: '1')
+  oem=1 psm=11 thresh=200: '' (expected: '1')
+  oem=1 psm=13 thresh=None: '4' (expected: '1')
+  oem=1 psm=13 thresh=127: '4' (expected: '1')
+  oem=1 psm=13 thresh=180: '' (expected: '1')
+  oem=1 psm=13 thresh=200: '4' (expected: '1')
+  oem=3 psm=6 thresh=None: '1' (expected: '1')  <==
+  oem=3 psm=6 thresh=127: '1' (expected: '1')  <==
+  oem=3 psm=6 thresh=180: '1' (expected: '1')  <==
+  oem=3 psm=6 thresh=200: '1' (expected: '1')  <==
+  oem=3 psm=7 thresh=None: '1' (expected: '1')  <==
+  oem=3 psm=7 thresh=127: '1' (expected: '1')  <==
+  oem=3 psm=7 thresh=180: '1' (expected: '1')  <==
+  oem=3 psm=7 thresh=200: '1' (expected: '1')  <==
+  oem=3 psm=8 thresh=None: '4' (expected: '1')
+  oem=3 psm=8 thresh=127: '4' (expected: '1')
+  oem=3 psm=8 thresh=180: '' (expected: '1')
+  oem=3 psm=8 thresh=200: '4' (expected: '1')
+  oem=3 psm=10 thresh=None: '1' (expected: '1')  <==
+  oem=3 psm=10 thresh=127: '1' (expected: '1')  <==
+  oem=3 psm=10 thresh=180: '1' (expected: '1')  <==
+  oem=3 psm=10 thresh=200: '1' (expected: '1')  <==
+  oem=3 psm=11 thresh=None: '' (expected: '1')
+  oem=3 psm=11 thresh=127: '' (expected: '1')
+  oem=3 psm=11 thresh=180: '' (expected: '1')
+  oem=3 psm=11 thresh=200: '' (expected: '1')
+  oem=3 psm=13 thresh=None: '4' (expected: '1')
+  oem=3 psm=13 thresh=127: '4' (expected: '1')
+  oem=3 psm=13 thresh=180: '' (expected: '1')
+  oem=3 psm=13 thresh=200: '4' (expected: '1')
+
+OCR results for cell_4:
+  oem=1 psm=6 thresh=None: '4' (expected: '4')  <==
+  oem=1 psm=6 thresh=127: '4' (expected: '4')  <==
+  oem=1 psm=6 thresh=180: '4' (expected: '4')  <==
+  oem=1 psm=6 thresh=200: '4' (expected: '4')  <==
+  oem=1 psm=7 thresh=None: '4' (expected: '4')  <==
+  oem=1 psm=7 thresh=127: '' (expected: '4')
+  oem=1 psm=7 thresh=180: '4' (expected: '4')  <==
+  oem=1 psm=7 thresh=200: '4' (expected: '4')  <==
+  oem=1 psm=8 thresh=None: '4' (expected: '4')  <==
+  oem=1 psm=8 thresh=127: '4' (expected: '4')  <==
+  oem=1 psm=8 thresh=180: '4' (expected: '4')  <==
+  oem=1 psm=8 thresh=200: '4' (expected: '4')  <==
+  oem=1 psm=10 thresh=None: '4' (expected: '4')  <==
+  oem=1 psm=10 thresh=127: '' (expected: '4')
+  oem=1 psm=10 thresh=180: '4' (expected: '4')  <==
+  oem=1 psm=10 thresh=200: '4' (expected: '4')  <==
+  oem=1 psm=11 thresh=None: '' (expected: '4')
+  oem=1 psm=11 thresh=127: '' (expected: '4')
+  oem=1 psm=11 thresh=180: '' (expected: '4')
+  oem=1 psm=11 thresh=200: '' (expected: '4')
+  oem=1 psm=13 thresh=None: '4' (expected: '4')  <==
+  oem=1 psm=13 thresh=127: '4' (expected: '4')  <==
+  oem=1 psm=13 thresh=180: '4' (expected: '4')  <==
+  oem=1 psm=13 thresh=200: '4' (expected: '4')  <==
+  oem=3 psm=6 thresh=None: '4' (expected: '4')  <==
+  oem=3 psm=6 thresh=127: '4' (expected: '4')  <==
+  oem=3 psm=6 thresh=180: '4' (expected: '4')  <==
+  oem=3 psm=6 thresh=200: '4' (expected: '4')  <==
+  oem=3 psm=7 thresh=None: '4' (expected: '4')  <==
+  oem=3 psm=7 thresh=127: '' (expected: '4')
+  oem=3 psm=7 thresh=180: '4' (expected: '4')  <==
+  oem=3 psm=7 thresh=200: '4' (expected: '4')  <==
+  oem=3 psm=8 thresh=None: '4' (expected: '4')  <==
+  oem=3 psm=8 thresh=127: '4' (expected: '4')  <==
+  oem=3 psm=8 thresh=180: '4' (expected: '4')  <==
+  oem=3 psm=8 thresh=200: '4' (expected: '4')  <==
+  oem=3 psm=10 thresh=None: '4' (expected: '4')  <==
+  oem=3 psm=10 thresh=127: '' (expected: '4')
+  oem=3 psm=10 thresh=180: '4' (expected: '4')  <==
+  oem=3 psm=10 thresh=200: '4' (expected: '4')  <==
+  oem=3 psm=11 thresh=None: '' (expected: '4')
+  oem=3 psm=11 thresh=127: '' (expected: '4')
+  oem=3 psm=11 thresh=180: '' (expected: '4')
+  oem=3 psm=11 thresh=200: '' (expected: '4')
+  oem=3 psm=13 thresh=None: '4' (expected: '4')  <==
+  oem=3 psm=13 thresh=127: '4' (expected: '4')  <==
+  oem=3 psm=13 thresh=180: '4' (expected: '4')  <==
+  oem=3 psm=13 thresh=200: '4' (expected: '4')  <==
+
+Reliability for cell_1:
+  Config: --psm 6 --oem 1 -c tessedit_char_whitelist=123456789 thresh=None | result: '1' | count: 24 | reliability: high | expected: '1'  <==
+  Config: --psm 6 --oem 1 -c tessedit_char_whitelist=123456789 thresh= 127 | result: '1' | count: 24 | reliability: high | expected: '1'  <==
+  Config: --psm 6 --oem 1 -c tessedit_char_whitelist=123456789 thresh= 180 | result: '1' | count: 24 | reliability: high | expected: '1'  <==
+  Config: --psm 6 --oem 1 -c tessedit_char_whitelist=123456789 thresh= 200 | result: '1' | count: 24 | reliability: high | expected: '1'  <==
+  Config: --psm 7 --oem 1 -c tessedit_char_whitelist=123456789 thresh=None | result: '1' | count: 24 | reliability: high | expected: '1'  <==
+  Config: --psm 7 --oem 1 -c tessedit_char_whitelist=123456789 thresh= 127 | result: '1' | count: 24 | reliability: high | expected: '1'  <==
+  Config: --psm 7 --oem 1 -c tessedit_char_whitelist=123456789 thresh= 180 | result: '1' | count: 24 | reliability: high | expected: '1'  <==
+  Config: --psm 7 --oem 1 -c tessedit_char_whitelist=123456789 thresh= 200 | result: '1' | count: 24 | reliability: high | expected: '1'  <==
+  Config: --psm 8 --oem 1 -c tessedit_char_whitelist=123456789 thresh=None | result: '4' | count: 12 | reliability: high | expected: '1'
+  Config: --psm 8 --oem 1 -c tessedit_char_whitelist=123456789 thresh= 127 | result: '4' | count: 12 | reliability: high | expected: '1'
+  Config: --psm 8 --oem 1 -c tessedit_char_whitelist=123456789 thresh= 180 | result: '' | count: 12 | reliability: high | expected: '1'
+  Config: --psm 8 --oem 1 -c tessedit_char_whitelist=123456789 thresh= 200 | result: '4' | count: 12 | reliability: high | expected: '1'
+  Config: --psm 10 --oem 1 -c tessedit_char_whitelist=123456789 thresh=None | result: '1' | count: 24 | reliability: high | expected: '1'  <==
+  Config: --psm 10 --oem 1 -c tessedit_char_whitelist=123456789 thresh= 127 | result: '1' | count: 24 | reliability: high | expected: '1'  <==
+  Config: --psm 10 --oem 1 -c tessedit_char_whitelist=123456789 thresh= 180 | result: '1' | count: 24 | reliability: high | expected: '1'  <==
+  Config: --psm 10 --oem 1 -c tessedit_char_whitelist=123456789 thresh= 200 | result: '1' | count: 24 | reliability: high | expected: '1'  <==
+  Config: --psm 11 --oem 1 -c tessedit_char_whitelist=123456789 thresh=None | result: '' | count: 12 | reliability: high | expected: '1'
+  Config: --psm 11 --oem 1 -c tessedit_char_whitelist=123456789 thresh= 127 | result: '' | count: 12 | reliability: high | expected: '1'
+  Config: --psm 11 --oem 1 -c tessedit_char_whitelist=123456789 thresh= 180 | result: '' | count: 12 | reliability: high | expected: '1'
+  Config: --psm 11 --oem 1 -c tessedit_char_whitelist=123456789 thresh= 200 | result: '' | count: 12 | reliability: high | expected: '1'
+  Config: --psm 13 --oem 1 -c tessedit_char_whitelist=123456789 thresh=None | result: '4' | count: 12 | reliability: high | expected: '1'
+  Config: --psm 13 --oem 1 -c tessedit_char_whitelist=123456789 thresh= 127 | result: '4' | count: 12 | reliability: high | expected: '1'
+  Config: --psm 13 --oem 1 -c tessedit_char_whitelist=123456789 thresh= 180 | result: '' | count: 12 | reliability: high | expected: '1'
+  Config: --psm 13 --oem 1 -c tessedit_char_whitelist=123456789 thresh= 200 | result: '4' | count: 12 | reliability: high | expected: '1'
+  Config: --psm 6 --oem 3 -c tessedit_char_whitelist=123456789 thresh=None | result: '1' | count: 24 | reliability: high | expected: '1'  <==
+  Config: --psm 6 --oem 3 -c tessedit_char_whitelist=123456789 thresh= 127 | result: '1' | count: 24 | reliability: high | expected: '1'  <==
+  Config: --psm 6 --oem 3 -c tessedit_char_whitelist=123456789 thresh= 180 | result: '1' | count: 24 | reliability: high | expected: '1'  <==
+  Config: --psm 6 --oem 3 -c tessedit_char_whitelist=123456789 thresh= 200 | result: '1' | count: 24 | reliability: high | expected: '1'  <==
+  Config: --psm 7 --oem 3 -c tessedit_char_whitelist=123456789 thresh=None | result: '1' | count: 24 | reliability: high | expected: '1'  <==
+  Config: --psm 7 --oem 3 -c tessedit_char_whitelist=123456789 thresh= 127 | result: '1' | count: 24 | reliability: high | expected: '1'  <==
+  Config: --psm 7 --oem 3 -c tessedit_char_whitelist=123456789 thresh= 180 | result: '1' | count: 24 | reliability: high | expected: '1'  <==
+  Config: --psm 7 --oem 3 -c tessedit_char_whitelist=123456789 thresh= 200 | result: '1' | count: 24 | reliability: high | expected: '1'  <==
+  Config: --psm 8 --oem 3 -c tessedit_char_whitelist=123456789 thresh=None | result: '4' | count: 12 | reliability: high | expected: '1'
+  Config: --psm 8 --oem 3 -c tessedit_char_whitelist=123456789 thresh= 127 | result: '4' | count: 12 | reliability: high | expected: '1'
+  Config: --psm 8 --oem 3 -c tessedit_char_whitelist=123456789 thresh= 180 | result: '' | count: 12 | reliability: high | expected: '1'
+  Config: --psm 8 --oem 3 -c tessedit_char_whitelist=123456789 thresh= 200 | result: '4' | count: 12 | reliability: high | expected: '1'
+  Config: --psm 10 --oem 3 -c tessedit_char_whitelist=123456789 thresh=None | result: '1' | count: 24 | reliability: high | expected: '1'  <==
+  Config: --psm 10 --oem 3 -c tessedit_char_whitelist=123456789 thresh= 127 | result: '1' | count: 24 | reliability: high | expected: '1'  <==
+  Config: --psm 10 --oem 3 -c tessedit_char_whitelist=123456789 thresh= 180 | result: '1' | count: 24 | reliability: high | expected: '1'  <==
+  Config: --psm 10 --oem 3 -c tessedit_char_whitelist=123456789 thresh= 200 | result: '1' | count: 24 | reliability: high | expected: '1'  <==
+  Config: --psm 11 --oem 3 -c tessedit_char_whitelist=123456789 thresh=None | result: '' | count: 12 | reliability: high | expected: '1'
+  Config: --psm 11 --oem 3 -c tessedit_char_whitelist=123456789 thresh= 127 | result: '' | count: 12 | reliability: high | expected: '1'
+  Config: --psm 11 --oem 3 -c tessedit_char_whitelist=123456789 thresh= 180 | result: '' | count: 12 | reliability: high | expected: '1'
+  Config: --psm 11 --oem 3 -c tessedit_char_whitelist=123456789 thresh= 200 | result: '' | count: 12 | reliability: high | expected: '1'
+  Config: --psm 13 --oem 3 -c tessedit_char_whitelist=123456789 thresh=None | result: '4' | count: 12 | reliability: high | expected: '1'
+  Config: --psm 13 --oem 3 -c tessedit_char_whitelist=123456789 thresh= 127 | result: '4' | count: 12 | reliability: high | expected: '1'
+  Config: --psm 13 --oem 3 -c tessedit_char_whitelist=123456789 thresh= 180 | result: '' | count: 12 | reliability: high | expected: '1'
+  Config: --psm 13 --oem 3 -c tessedit_char_whitelist=123456789 thresh= 200 | result: '4' | count: 12 | reliability: high | expected: '1'
+
+Reliability for cell_4:
+  Config: --psm 6 --oem 1 -c tessedit_char_whitelist=123456789 thresh=None | result: '4' | count: 36 | reliability: high | expected: '4'  <==
+  Config: --psm 6 --oem 1 -c tessedit_char_whitelist=123456789 thresh= 127 | result: '4' | count: 36 | reliability: high | expected: '4'  <==
+  Config: --psm 6 --oem 1 -c tessedit_char_whitelist=123456789 thresh= 180 | result: '4' | count: 36 | reliability: high | expected: '4'  <==
+  Config: --psm 6 --oem 1 -c tessedit_char_whitelist=123456789 thresh= 200 | result: '4' | count: 36 | reliability: high | expected: '4'  <==
+  Config: --psm 7 --oem 1 -c tessedit_char_whitelist=123456789 thresh=None | result: '4' | count: 36 | reliability: high | expected: '4'  <==
+  Config: --psm 7 --oem 1 -c tessedit_char_whitelist=123456789 thresh= 127 | result: '' | count: 12 | reliability: high | expected: '4'
+  Config: --psm 7 --oem 1 -c tessedit_char_whitelist=123456789 thresh= 180 | result: '4' | count: 36 | reliability: high | expected: '4'  <==
+  Config: --psm 7 --oem 1 -c tessedit_char_whitelist=123456789 thresh= 200 | result: '4' | count: 36 | reliability: high | expected: '4'  <==
+  Config: --psm 8 --oem 1 -c tessedit_char_whitelist=123456789 thresh=None | result: '4' | count: 36 | reliability: high | expected: '4'  <==
+  Config: --psm 8 --oem 1 -c tessedit_char_whitelist=123456789 thresh= 127 | result: '4' | count: 36 | reliability: high | expected: '4'  <==
+  Config: --psm 8 --oem 1 -c tessedit_char_whitelist=123456789 thresh= 180 | result: '4' | count: 36 | reliability: high | expected: '4'  <==
+  Config: --psm 8 --oem 1 -c tessedit_char_whitelist=123456789 thresh= 200 | result: '4' | count: 36 | reliability: high | expected: '4'  <==
+  Config: --psm 10 --oem 1 -c tessedit_char_whitelist=123456789 thresh=None | result: '4' | count: 36 | reliability: high | expected: '4'  <==
+  Config: --psm 10 --oem 1 -c tessedit_char_whitelist=123456789 thresh= 127 | result: '' | count: 12 | reliability: high | expected: '4'
+  Config: --psm 10 --oem 1 -c tessedit_char_whitelist=123456789 thresh= 180 | result: '4' | count: 36 | reliability: high | expected: '4'  <==
+  Config: --psm 10 --oem 1 -c tessedit_char_whitelist=123456789 thresh= 200 | result: '4' | count: 36 | reliability: high | expected: '4'  <==
+  Config: --psm 11 --oem 1 -c tessedit_char_whitelist=123456789 thresh=None | result: '' | count: 12 | reliability: high | expected: '4'
+  Config: --psm 11 --oem 1 -c tessedit_char_whitelist=123456789 thresh= 127 | result: '' | count: 12 | reliability: high | expected: '4'
+  Config: --psm 11 --oem 1 -c tessedit_char_whitelist=123456789 thresh= 180 | result: '' | count: 12 | reliability: high | expected: '4'
+  Config: --psm 11 --oem 1 -c tessedit_char_whitelist=123456789 thresh= 200 | result: '' | count: 12 | reliability: high | expected: '4'
+  Config: --psm 13 --oem 1 -c tessedit_char_whitelist=123456789 thresh=None | result: '4' | count: 36 | reliability: high | expected: '4'  <==
+  Config: --psm 13 --oem 1 -c tessedit_char_whitelist=123456789 thresh= 127 | result: '4' | count: 36 | reliability: high | expected: '4'  <==
+  Config: --psm 13 --oem 1 -c tessedit_char_whitelist=123456789 thresh= 180 | result: '4' | count: 36 | reliability: high | expected: '4'  <==
+  Config: --psm 13 --oem 1 -c tessedit_char_whitelist=123456789 thresh= 200 | result: '4' | count: 36 | reliability: high | expected: '4'  <==
+  Config: --psm 6 --oem 3 -c tessedit_char_whitelist=123456789 thresh=None | result: '4' | count: 36 | reliability: high | expected: '4'  <==
+  Config: --psm 6 --oem 3 -c tessedit_char_whitelist=123456789 thresh= 127 | result: '4' | count: 36 | reliability: high | expected: '4'  <==
+  Config: --psm 6 --oem 3 -c tessedit_char_whitelist=123456789 thresh= 180 | result: '4' | count: 36 | reliability: high | expected: '4'  <==
+  Config: --psm 6 --oem 3 -c tessedit_char_whitelist=123456789 thresh= 200 | result: '4' | count: 36 | reliability: high | expected: '4'  <==
+  Config: --psm 7 --oem 3 -c tessedit_char_whitelist=123456789 thresh=None | result: '4' | count: 36 | reliability: high | expected: '4'  <==
+  Config: --psm 7 --oem 3 -c tessedit_char_whitelist=123456789 thresh= 127 | result: '' | count: 12 | reliability: high | expected: '4'
+  Config: --psm 7 --oem 3 -c tessedit_char_whitelist=123456789 thresh= 180 | result: '4' | count: 36 | reliability: high | expected: '4'  <==
+  Config: --psm 7 --oem 3 -c tessedit_char_whitelist=123456789 thresh= 200 | result: '4' | count: 36 | reliability: high | expected: '4'  <==
+  Config: --psm 8 --oem 3 -c tessedit_char_whitelist=123456789 thresh=None | result: '4' | count: 36 | reliability: high | expected: '4'  <==
+  Config: --psm 8 --oem 3 -c tessedit_char_whitelist=123456789 thresh= 127 | result: '4' | count: 36 | reliability: high | expected: '4'  <==
+  Config: --psm 8 --oem 3 -c tessedit_char_whitelist=123456789 thresh= 180 | result: '4' | count: 36 | reliability: high | expected: '4'  <==
+  Config: --psm 8 --oem 3 -c tessedit_char_whitelist=123456789 thresh= 200 | result: '4' | count: 36 | reliability: high | expected: '4'  <==
+  Config: --psm 10 --oem 3 -c tessedit_char_whitelist=123456789 thresh=None | result: '4' | count: 36 | reliability: high | expected: '4'  <==
+  Config: --psm 10 --oem 3 -c tessedit_char_whitelist=123456789 thresh= 127 | result: '' | count: 12 | reliability: high | expected: '4'
+  Config: --psm 10 --oem 3 -c tessedit_char_whitelist=123456789 thresh= 180 | result: '4' | count: 36 | reliability: high | expected: '4'  <==
+  Config: --psm 10 --oem 3 -c tessedit_char_whitelist=123456789 thresh= 200 | result: '4' | count: 36 | reliability: high | expected: '4'  <==
+  Config: --psm 11 --oem 3 -c tessedit_char_whitelist=123456789 thresh=None | result: '' | count: 12 | reliability: high | expected: '4'
+  Config: --psm 11 --oem 3 -c tessedit_char_whitelist=123456789 thresh= 127 | result: '' | count: 12 | reliability: high | expected: '4'
+  Config: --psm 11 --oem 3 -c tessedit_char_whitelist=123456789 thresh= 180 | result: '' | count: 12 | reliability: high | expected: '4'
+  Config: --psm 11 --oem 3 -c tessedit_char_whitelist=123456789 thresh= 200 | result: '' | count: 12 | reliability: high | expected: '4'
+  Config: --psm 13 --oem 3 -c tessedit_char_whitelist=123456789 thresh=None | result: '4' | count: 36 | reliability: high | expected: '4'  <==
+  Config: --psm 13 --oem 3 -c tessedit_char_whitelist=123456789 thresh= 127 | result: '4' | count: 36 | reliability: high | expected: '4'  <==
+  Config: --psm 13 --oem 3 -c tessedit_char_whitelist=123456789 thresh= 180 | result: '4' | count: 36 | reliability: high | expected: '4'  <==
+  Config: --psm 13 --oem 3 -c tessedit_char_whitelist=123456789 thresh= 200 | result: '4' | count: 36 | reliability: high | expected: '4'  <==
+
+Summary table:
+Config: --psm 6 --oem 1 -c tessedit_char_whitelist=123456789 thresh=None | cell_1: '1' (high, 24) | cell_4: '4' (high, 36) | expected_1: '1' | expected_4: '4'
+Config: --psm 6 --oem 1 -c tessedit_char_whitelist=123456789 thresh= 127 | cell_1: '1' (high, 24) | cell_4: '4' (high, 36) | expected_1: '1' | expected_4: '4'
+Config: --psm 6 --oem 1 -c tessedit_char_whitelist=123456789 thresh= 180 | cell_1: '1' (high, 24) | cell_4: '4' (high, 36) | expected_1: '1' | expected_4: '4'
+Config: --psm 6 --oem 1 -c tessedit_char_whitelist=123456789 thresh= 200 | cell_1: '1' (high, 24) | cell_4: '4' (high, 36) | expected_1: '1' | expected_4: '4'
+Config: --psm 7 --oem 1 -c tessedit_char_whitelist=123456789 thresh=None | cell_1: '1' (high, 24) | cell_4: '4' (high, 36) | expected_1: '1' | expected_4: '4'
+Config: --psm 7 --oem 1 -c tessedit_char_whitelist=123456789 thresh= 127 | cell_1: '1' (high, 24) | cell_4: '' (high, 12) | expected_1: '1' | expected_4: '4'
+Config: --psm 7 --oem 1 -c tessedit_char_whitelist=123456789 thresh= 180 | cell_1: '1' (high, 24) | cell_4: '4' (high, 36) | expected_1: '1' | expected_4: '4'
+Config: --psm 7 --oem 1 -c tessedit_char_whitelist=123456789 thresh= 200 | cell_1: '1' (high, 24) | cell_4: '4' (high, 36) | expected_1: '1' | expected_4: '4'
+Config: --psm 8 --oem 1 -c tessedit_char_whitelist=123456789 thresh=None | cell_1: '4' (high, 12) | cell_4: '4' (high, 36) | expected_1: '1' | expected_4: '4'
+Config: --psm 8 --oem 1 -c tessedit_char_whitelist=123456789 thresh= 127 | cell_1: '4' (high, 12) | cell_4: '4' (high, 36) | expected_1: '1' | expected_4: '4'
+Config: --psm 8 --oem 1 -c tessedit_char_whitelist=123456789 thresh= 180 | cell_1: '' (high, 12) | cell_4: '4' (high, 36) | expected_1: '1' | expected_4: '4'
+Config: --psm 8 --oem 1 -c tessedit_char_whitelist=123456789 thresh= 200 | cell_1: '4' (high, 12) | cell_4: '4' (high, 36) | expected_1: '1' | expected_4: '4'
+Config: --psm 10 --oem 1 -c tessedit_char_whitelist=123456789 thresh=None | cell_1: '1' (high, 24) | cell_4: '4' (high, 36) | expected_1: '1' | expected_4: '4'
+Config: --psm 10 --oem 1 -c tessedit_char_whitelist=123456789 thresh= 127 | cell_1: '1' (high, 24) | cell_4: '' (high, 12) | expected_1: '1' | expected_4: '4'
+Config: --psm 10 --oem 1 -c tessedit_char_whitelist=123456789 thresh= 180 | cell_1: '1' (high, 24) | cell_4: '4' (high, 36) | expected_1: '1' | expected_4: '4'
+Config: --psm 10 --oem 1 -c tessedit_char_whitelist=123456789 thresh= 200 | cell_1: '1' (high, 24) | cell_4: '4' (high, 36) | expected_1: '1' | expected_4: '4'
+Config: --psm 11 --oem 1 -c tessedit_char_whitelist=123456789 thresh=None | cell_1: '' (high, 12) | cell_4: '' (high, 12) | expected_1: '1' | expected_4: '4'
+Config: --psm 11 --oem 1 -c tessedit_char_whitelist=123456789 thresh= 127 | cell_1: '' (high, 12) | cell_4: '' (high, 12) | expected_1: '1' | expected_4: '4'
+Config: --psm 11 --oem 1 -c tessedit_char_whitelist=123456789 thresh= 180 | cell_1: '' (high, 12) | cell_4: '' (high, 12) | expected_1: '1' | expected_4: '4'
+Config: --psm 11 --oem 1 -c tessedit_char_whitelist=123456789 thresh= 200 | cell_1: '' (high, 12) | cell_4: '' (high, 12) | expected_1: '1' | expected_4: '4'
+Config: --psm 13 --oem 1 -c tessedit_char_whitelist=123456789 thresh=None | cell_1: '4' (high, 12) | cell_4: '4' (high, 36) | expected_1: '1' | expected_4: '4'
+Config: --psm 13 --oem 1 -c tessedit_char_whitelist=123456789 thresh= 127 | cell_1: '4' (high, 12) | cell_4: '4' (high, 36) | expected_1: '1' | expected_4: '4'
+Config: --psm 13 --oem 1 -c tessedit_char_whitelist=123456789 thresh= 180 | cell_1: '' (high, 12) | cell_4: '4' (high, 36) | expected_1: '1' | expected_4: '4'
+Config: --psm 13 --oem 1 -c tessedit_char_whitelist=123456789 thresh= 200 | cell_1: '4' (high, 12) | cell_4: '4' (high, 36) | expected_1: '1' | expected_4: '4'
+Config: --psm 6 --oem 3 -c tessedit_char_whitelist=123456789 thresh=None | cell_1: '1' (high, 24) | cell_4: '4' (high, 36) | expected_1: '1' | expected_4: '4'
+Config: --psm 6 --oem 3 -c tessedit_char_whitelist=123456789 thresh= 127 | cell_1: '1' (high, 24) | cell_4: '4' (high, 36) | expected_1: '1' | expected_4: '4'
+Config: --psm 6 --oem 3 -c tessedit_char_whitelist=123456789 thresh= 180 | cell_1: '1' (high, 24) | cell_4: '4' (high, 36) | expected_1: '1' | expected_4: '4'
+Config: --psm 6 --oem 3 -c tessedit_char_whitelist=123456789 thresh= 200 | cell_1: '1' (high, 24) | cell_4: '4' (high, 36) | expected_1: '1' | expected_4: '4'
+Config: --psm 7 --oem 3 -c tessedit_char_whitelist=123456789 thresh=None | cell_1: '1' (high, 24) | cell_4: '4' (high, 36) | expected_1: '1' | expected_4: '4'
+Config: --psm 7 --oem 3 -c tessedit_char_whitelist=123456789 thresh= 127 | cell_1: '1' (high, 24) | cell_4: '' (high, 12) | expected_1: '1' | expected_4: '4'
+Config: --psm 7 --oem 3 -c tessedit_char_whitelist=123456789 thresh= 180 | cell_1: '1' (high, 24) | cell_4: '4' (high, 36) | expected_1: '1' | expected_4: '4'
+Config: --psm 7 --oem 3 -c tessedit_char_whitelist=123456789 thresh= 200 | cell_1: '1' (high, 24) | cell_4: '4' (high, 36) | expected_1: '1' | expected_4: '4'
+Config: --psm 8 --oem 3 -c tessedit_char_whitelist=123456789 thresh=None | cell_1: '4' (high, 12) | cell_4: '4' (high, 36) | expected_1: '1' | expected_4: '4'
+Config: --psm 8 --oem 3 -c tessedit_char_whitelist=123456789 thresh= 127 | cell_1: '4' (high, 12) | cell_4: '4' (high, 36) | expected_1: '1' | expected_4: '4'
+Config: --psm 8 --oem 3 -c tessedit_char_whitelist=123456789 thresh= 180 | cell_1: '' (high, 12) | cell_4: '4' (high, 36) | expected_1: '1' | expected_4: '4'
+Config: --psm 8 --oem 3 -c tessedit_char_whitelist=123456789 thresh= 200 | cell_1: '4' (high, 12) | cell_4: '4' (high, 36) | expected_1: '1' | expected_4: '4'
+Config: --psm 10 --oem 3 -c tessedit_char_whitelist=123456789 thresh=None | cell_1: '1' (high, 24) | cell_4: '4' (high, 36) | expected_1: '1' | expected_4: '4'
+Config: --psm 10 --oem 3 -c tessedit_char_whitelist=123456789 thresh= 127 | cell_1: '1' (high, 24) | cell_4: '' (high, 12) | expected_1: '1' | expected_4: '4'
+Config: --psm 10 --oem 3 -c tessedit_char_whitelist=123456789 thresh= 180 | cell_1: '1' (high, 24) | cell_4: '4' (high, 36) | expected_1: '1' | expected_4: '4'
+Config: --psm 10 --oem 3 -c tessedit_char_whitelist=123456789 thresh= 200 | cell_1: '1' (high, 24) | cell_4: '4' (high, 36) | expected_1: '1' | expected_4: '4'
+Config: --psm 11 --oem 3 -c tessedit_char_whitelist=123456789 thresh=None | cell_1: '' (high, 12) | cell_4: '' (high, 12) | expected_1: '1' | expected_4: '4'
+Config: --psm 11 --oem 3 -c tessedit_char_whitelist=123456789 thresh= 127 | cell_1: '' (high, 12) | cell_4: '' (high, 12) | expected_1: '1' | expected_4: '4'
+Config: --psm 11 --oem 3 -c tessedit_char_whitelist=123456789 thresh= 180 | cell_1: '' (high, 12) | cell_4: '' (high, 12) | expected_1: '1' | expected_4: '4'
+Config: --psm 11 --oem 3 -c tessedit_char_whitelist=123456789 thresh= 200 | cell_1: '' (high, 12) | cell_4: '' (high, 12) | expected_1: '1' | expected_4: '4'
+Config: --psm 13 --oem 3 -c tessedit_char_whitelist=123456789 thresh=None | cell_1: '4' (high, 12) | cell_4: '4' (high, 36) | expected_1: '1' | expected_4: '4'
+Config: --psm 13 --oem 3 -c tessedit_char_whitelist=123456789 thresh= 127 | cell_1: '4' (high, 12) | cell_4: '4' (high, 36) | expected_1: '1' | expected_4: '4'
+Config: --psm 13 --oem 3 -c tessedit_char_whitelist=123456789 thresh= 180 | cell_1: '' (high, 12) | cell_4: '4' (high, 36) | expected_1: '1' | expected_4: '4'
+Config: --psm 13 --oem 3 -c tessedit_char_whitelist=123456789 thresh= 200 | cell_1: '4' (high, 12) | cell_4: '4' (high, 36) | expected_1: '1' | expected_4: '4'
+
+Most common OCR results:
+  cell_1: [('1', 24), ('4', 12), ('', 12)]
+  cell_4: [('4', 36), ('', 12)]
+
+YAML configs that produced the right answer for cell_1:
+tesseract_configs:
+- psm: 6
+  oem: 1
+  thresh: null
+- psm: 6
+  oem: 1
+  thresh: 127
+- psm: 6
+  oem: 1
+  thresh: 180
+- psm: 6
+  oem: 1
+  thresh: 200
+- psm: 7
+  oem: 1
+  thresh: null
+- psm: 7
+  oem: 1
+  thresh: 127
+- psm: 7
+  oem: 1
+  thresh: 180
+- psm: 7
+  oem: 1
+  thresh: 200
+- psm: 10
+  oem: 1
+  thresh: null
+- psm: 10
+  oem: 1
+  thresh: 127
+- psm: 10
+  oem: 1
+  thresh: 180
+- psm: 10
+  oem: 1
+  thresh: 200
+- psm: 6
+  oem: 3
+  thresh: null
+- psm: 6
+  oem: 3
+  thresh: 127
+- psm: 6
+  oem: 3
+  thresh: 180
+- psm: 6
+  oem: 3
+  thresh: 200
+- psm: 7
+  oem: 3
+  thresh: null
+- psm: 7
+  oem: 3
+  thresh: 127
+- psm: 7
+  oem: 3
+  thresh: 180
+- psm: 7
+  oem: 3
+  thresh: 200
+- psm: 10
+  oem: 3
+  thresh: null
+- psm: 10
+  oem: 3
+  thresh: 127
+- psm: 10
+  oem: 3
+  thresh: 180
+- psm: 10
+  oem: 3
+  thresh: 200
+
+YAML configs that produced the right answer for cell_4:
+tesseract_configs:
+- psm: 6
+  oem: 1
+  thresh: null
+- psm: 6
+  oem: 1
+  thresh: 127
+- psm: 6
+  oem: 1
+  thresh: 180
+- psm: 6
+  oem: 1
+  thresh: 200
+- psm: 7
+  oem: 1
+  thresh: null
+- psm: 7
+  oem: 1
+  thresh: 180
+- psm: 7
+  oem: 1
+  thresh: 200
+- psm: 8
+  oem: 1
+  thresh: null
+- psm: 8
+  oem: 1
+  thresh: 127
+- psm: 8
+  oem: 1
+  thresh: 180
+- psm: 8
+  oem: 1
+  thresh: 200
+- psm: 10
+  oem: 1
+  thresh: null
+- psm: 10
+  oem: 1
+  thresh: 180
+- psm: 10
+  oem: 1
+  thresh: 200
+- psm: 13
+  oem: 1
+  thresh: null
+- psm: 13
+  oem: 1
+  thresh: 127
+- psm: 13
+  oem: 1
+  thresh: 180
+- psm: 13
+  oem: 1
+  thresh: 200
+- psm: 6
+  oem: 3
+  thresh: null
+- psm: 6
+  oem: 3
+  thresh: 127
+- psm: 6
+  oem: 3
+  thresh: 180
+- psm: 6
+  oem: 3
+  thresh: 200
+- psm: 7
+  oem: 3
+  thresh: null
+- psm: 7
+  oem: 3
+  thresh: 180
+- psm: 7
+  oem: 3
+  thresh: 200
+- psm: 8
+  oem: 3
+  thresh: null
+- psm: 8
+  oem: 3
+  thresh: 127
+- psm: 8
+  oem: 3
+  thresh: 180
+- psm: 8
+  oem: 3
+  thresh: 200
+- psm: 10
+  oem: 3
+  thresh: null
+- psm: 10
+  oem: 3
+  thresh: 180
+- psm: 10
+  oem: 3
+  thresh: 200
+- psm: 13
+  oem: 3
+  thresh: null
+- psm: 13
+  oem: 3
+  thresh: 127
+- psm: 13
+  oem: 3
+  thresh: 180
+- psm: 13
+  oem: 3
+  thresh: 200
+

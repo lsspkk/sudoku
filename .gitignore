@@ -1,10 +1,45 @@
-# Byte-compiled / optimized / DLL files
+# Python
 __pycache__/
 *.py[cod]
 *$py.class
-
-# C extensions
 *.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Project specific
+log.txt
+.coverage
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+
+# OS specific
+.DS_Store
+Thumbs.db
 
 # Distribution / packaging
 .Python
@@ -176,3 +211,5 @@ cython_debug/
 
 log.txt
 backup/
+logs/
+pdf/*.pdf

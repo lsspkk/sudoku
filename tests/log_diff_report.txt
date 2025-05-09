@@ -1,0 +1,5 @@
+Grid 1 Cell (5,5): expected '-', actual '4' | INFO Cell (5,5) at (x=1050, y=1045, w=122, h=121): 4 (reliability=high, ocr_count=20)
+Grid 2 Cell (3,2): expected '1', actual '4' | INFO Cell (3,2) at (x=444, y=643, w=122, h=121): empty
+Grid 2 Cell (5,2): expected '1', actual '4' | INFO Cell (5,2) at (x=444, y=1045, w=122, h=121): empty
+Grid 3 Cell (7,4): expected '1', actual '4' | INFO Cell (7,4) at (x=848, y=1447, w=122, h=121): 7 (reliability=high, ocr_count=20)
+Grid 4 Cell (2,0): expected '5', actual '4' | INFO Cell (2,0) at (x=40, y=442, w=122, h=121): 9 (reliability=high, ocr_count=12)

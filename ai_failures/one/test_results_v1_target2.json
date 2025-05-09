@@ -1,0 +1,2372 @@
+[
+  {
+    "grid": 1,
+    "accuracy": 0.0,
+    "correct_cells": 0,
+    "total_cells": 31,
+    "results": [
+      {
+        "position": [
+          0,
+          3
+        ],
+        "expected": 1,
+        "recognized": {
+          "has_content": true,
+          "contour_count": 2,
+          "contour_areas": [
+            798.0,
+            1536.5
+          ],
+          "recognized_number": "1",
+          "confidence": 70.0,
+          "confidence_level": "high",
+          "all_matches": [
+            [
+              "1",
+              70.0
+            ]
+          ]
+        },
+        "correct": false
+      },
+      {
+        "position": [
+          1,
+          0
+        ],
+        "expected": 5,
+        "recognized": {
+          "has_content": true,
+          "contour_count": 2,
+          "contour_areas": [
+            1753.5,
+            1370.5
+          ],
+          "recognized_number": "5",
+          "confidence": 52.0,
+          "confidence_level": "medium",
+          "all_matches": [
+            [
+              "5",
+              52.0
+            ]
+          ]
+        },
+        "correct": false
+      },
+      {
+        "position": [
+          1,
+          3
+        ],
+        "expected": 4,
+        "recognized": {
+          "has_content": true,
+          "contour_count": 2,
+          "contour_areas": [
+            1892.5,
+            1381.5
+          ],
+          "recognized_number": "1",
+          "confidence": 79.0,
+          "confidence_level": "high",
+          "all_matches": [
+            [
+              "4",
+              79.0
+            ]
+          ]
+        },
+        "correct": false
+      },
+      {
+        "position": [
+          1,
+          7
+        ],
+        "expected": 8,
+        "recognized": {
+          "has_content": true,
+          "contour_count": 2,
+          "contour_areas": [
+            3147.5,
+            996.5
+          ],
+          "recognized_number": "8",
+          "confidence": 69.0,
+          "confidence_level": "medium",
+          "all_matches": [
+            [
+              "8",
+              69.0
+            ]
+          ]
+        },
+        "correct": false
+      },
+      {
+        "position": [
+          1,
+          8
+        ],
+        "expected": 9,
+        "recognized": {
+          "has_content": true,
+          "contour_count": 2,
+          "contour_areas": [
+            2718.5,
+            1380.5
+          ],
+          "recognized_number": null,
+          "confidence": 0,
+          "confidence_level": "failed",
+          "all_matches": [
+            [
+              "9",
+              19.0
+            ]
+          ]
+        },
+        "correct": false
+      },
+      {
+        "position": [
+          2,
+          0
+        ],
+        "expected": 9,
+        "recognized": {
+          "has_content": true,
+          "contour_count": 2,
+          "contour_areas": [
+            2729.5,
+            1181.0
+          ],
+          "recognized_number": "9",
+          "confidence": 31.0,
+          "confidence_level": "low",
+          "all_matches": [
+            [
+              "9",
+              31.0
+            ]
+          ]
+        },
+        "correct": false
+      },
+      {
+        "position": [
+          2,
+          1
+        ],
+        "expected": 8,
+        "recognized": {
+          "has_content": true,
+          "contour_count": 2,
+          "contour_areas": [
+            3163.5,
+            1010.0
+          ],
+          "recognized_number": "8",
+          "confidence": 64.0,
+          "confidence_level": "medium",
+          "all_matches": [
+            [
+              "8",
+              64.0
+            ]
+          ]
+        },
+        "correct": false
+      },
+      {
+        "position": [
+          2,
+          2
+        ],
+        "expected": 1,
+        "recognized": {
+          "has_content": true,
+          "contour_count": 2,
+          "contour_areas": [
+            913.0,
+            841.5
+          ],
+          "recognized_number": "1",
+          "confidence": 67.0,
+          "confidence_level": "medium",
+          "all_matches": [
+            [
+              "1",
+              67.0
+            ]
+          ]
+        },
+        "correct": false
+      },
+      {
+        "position": [
+          2,
+          7
+        ],
+        "expected": 4,
+        "recognized": {
+          "has_content": true,
+          "contour_count": 3,
+          "contour_areas": [
+            0.0,
+            1896.0,
+            824.5
+          ],
+          "recognized_number": "1",
+          "confidence": 72.0,
+          "confidence_level": "high",
+          "all_matches": [
+            [
+              "4",
+              72.0
+            ]
+          ]
+        },
+        "correct": false
+      },
+      {
+        "position": [
+          2,
+          8
+        ],
+        "expected": 6,
+        "recognized": {
+          "has_content": true,
+          "contour_count": 2,
+          "contour_areas": [
+            2724.0,
+            1190.5
+          ],
+          "recognized_number": null,
+          "confidence": 0,
+          "confidence_level": "failed",
+          "all_matches": [
+            [
+              "6",
+              0.0
+            ]
+          ]
+        },
+        "correct": false
+      },
+      {
+        "position": [
+          3,
+          1
+        ],
+        "expected": 7,
+        "recognized": {
+          "has_content": true,
+          "contour_count": 2,
+          "contour_areas": [
+            1058.0,
+            1370.0
+          ],
+          "recognized_number": "7",
+          "confidence": 79.0,
+          "confidence_level": "high",
+          "all_matches": [
+            [
+              "7",
+              79.0
+            ]
+          ]
+        },
+        "correct": false
+      },
+      {
+        "position": [
+          3,
+          4
+        ],
+        "expected": 9,
+        "recognized": {
+          "has_content": true,
+          "contour_count": 2,
+          "contour_areas": [
+            2719.0,
+            1632.5
+          ],
+          "recognized_number": null,
+          "confidence": 0,
+          "confidence_level": "failed",
+          "all_matches": []
+        },
+        "correct": false
+      },
+      {
+        "position": [
+          3,
+          5
+        ],
+        "expected": 3,
+        "recognized": {
+          "has_content": true,
+          "contour_count": 2,
+          "contour_areas": [
+            1556.0,
+            2040.5
+          ],
+          "recognized_number": "3",
+          "confidence": 67.0,
+          "confidence_level": "medium",
+          "all_matches": [
+            [
+              "3",
+              67.0
+            ]
+          ]
+        },
+        "correct": false
+      },
+      {
+        "position": [
+          3,
+          8
+        ],
+        "expected": 2,
+        "recognized": {
+          "has_content": true,
+          "contour_count": 2,
+          "contour_areas": [
+            1500.5,
+            1538.0
+          ],
+          "recognized_number": "2",
+          "confidence": 26.0,
+          "confidence_level": "low",
+          "all_matches": [
+            [
+              "2",
+              26.0
+            ]
+          ]
+        },
+        "correct": false
+      },
+      {
+        "position": [
+          4,
+          0
+        ],
+        "expected": 4,
+        "recognized": {
+          "has_content": true,
+          "contour_count": 2,
+          "contour_areas": [
+            1862.5,
+            1182.0
+          ],
+          "recognized_number": null,
+          "confidence": 0,
+          "confidence_level": "failed",
+          "all_matches": [
+            [
+              "4",
+              16.0
+            ]
+          ]
+        },
+        "correct": false
+      },
+      {
+        "position": [
+          4,
+          3
+        ],
+        "expected": 7,
+        "recognized": {
+          "has_content": true,
+          "contour_count": 2,
+          "contour_areas": [
+            1009.0,
+            1190.0
+          ],
+          "recognized_number": "7",
+          "confidence": 71.0,
+          "confidence_level": "high",
+          "all_matches": [
+            [
+              "7",
+              71.0
+            ]
+          ]
+        },
+        "correct": false
+      },
+      {
+        "position": [
+          4,
+          4
+        ],
+        "expected": 5,
+        "recognized": {
+          "has_content": true,
+          "contour_count": 2,
+          "contour_areas": [
+            1697.5,
+            1213.0
+          ],
+          "recognized_number": "5",
+          "confidence": 74.0,
+          "confidence_level": "high",
+          "all_matches": [
+            [
+              "5",
+              74.0
+            ]
+          ]
+        },
+        "correct": false
+      },
+      {
+        "position": [
+          4,
+          7
+        ],
+        "expected": 3,
+        "recognized": {
+          "has_content": true,
+          "contour_count": 2,
+          "contour_areas": [
+            1544.0,
+            807.5
+          ],
+          "recognized_number": "3",
+          "confidence": 78.0,
+          "confidence_level": "high",
+          "all_matches": [
+            [
+              "3",
+              78.0
+            ]
+          ]
+        },
+        "correct": false
+      },
+      {
+        "position": [
+          5,
+          0
+        ],
+        "expected": 3,
+        "recognized": {
+          "has_content": true,
+          "contour_count": 2,
+          "contour_areas": [
+            1516.0,
+            1371.0
+          ],
+          "recognized_number": "3",
+          "confidence": 69.0,
+          "confidence_level": "medium",
+          "all_matches": [
+            [
+              "3",
+              69.0
+            ]
+          ]
+        },
+        "correct": false
+      },
+      {
+        "position": [
+          5,
+          3
+        ],
+        "expected": 2,
+        "recognized": {
+          "has_content": true,
+          "contour_count": 3,
+          "contour_areas": [
+            0.0,
+            1388.0,
+            1383.0
+          ],
+          "recognized_number": "2",
+          "confidence": 65.0,
+          "confidence_level": "medium",
+          "all_matches": [
+            [
+              "2",
+              65.0
+            ]
+          ]
+        },
+        "correct": false
+      },
+      {
+        "position": [
+          5,
+          6
+        ],
+        "expected": 8,
+        "recognized": {
+          "has_content": true,
+          "contour_count": 2,
+          "contour_areas": [
+            3092.5,
+            1626.0
+          ],
+          "recognized_number": "8",
+          "confidence": 69.0,
+          "confidence_level": "medium",
+          "all_matches": [
+            [
+              "8",
+              69.0
+            ]
+          ]
+        },
+        "correct": false
+      },
+      {
+        "position": [
+          6,
+          1
+        ],
+        "expected": 9,
+        "recognized": {
+          "has_content": true,
+          "contour_count": 2,
+          "contour_areas": [
+            2711.0,
+            1370.0
+          ],
+          "recognized_number": "3",
+          "confidence": 28.0,
+          "confidence_level": "low",
+          "all_matches": [
+            [
+              "3",
+              28.0
+            ]
+          ]
+        },
+        "correct": false
+      },
+      {
+        "position": [
+          6,
+          4
+        ],
+        "expected": 2,
+        "recognized": {
+          "has_content": true,
+          "contour_count": 2,
+          "contour_areas": [
+            1397.0,
+            1562.5
+          ],
+          "recognized_number": "2",
+          "confidence": 46.0,
+          "confidence_level": "medium",
+          "all_matches": [
+            [
+              "2",
+              46.0
+            ]
+          ]
+        },
+        "correct": false
+      },
+      {
+        "position": [
+          6,
+          5
+        ],
+        "expected": 8,
+        "recognized": {
+          "has_content": true,
+          "contour_count": 2,
+          "contour_areas": [
+            3111.0,
+            1938.5
+          ],
+          "recognized_number": "8",
+          "confidence": 71.0,
+          "confidence_level": "high",
+          "all_matches": [
+            [
+              "8",
+              71.0
+            ]
+          ]
+        },
+        "correct": false
+      },
+      {
+        "position": [
+          7,
+          0
+        ],
+        "expected": 6,
+        "recognized": {
+          "has_content": true,
+          "contour_count": 2,
+          "contour_areas": [
+            2680.5,
+            1365.0
+          ],
+          "recognized_number": "6",
+          "confidence": 44.0,
+          "confidence_level": "medium",
+          "all_matches": [
+            [
+              "6",
+              44.0
+            ]
+          ]
+        },
+        "correct": false
+      },
+      {
+        "position": [
+          7,
+          1
+        ],
+        "expected": 5,
+        "recognized": {
+          "has_content": true,
+          "contour_count": 2,
+          "contour_areas": [
+            1768.0,
+            1198.0
+          ],
+          "recognized_number": "5",
+          "confidence": 80.0,
+          "confidence_level": "high",
+          "all_matches": [
+            [
+              "5",
+              80.0
+            ]
+          ]
+        },
+        "correct": false
+      },
+      {
+        "position": [
+          7,
+          4
+        ],
+        "expected": 7,
+        "recognized": {
+          "has_content": true,
+          "contour_count": 2,
+          "contour_areas": [
+            1084.0,
+            1388.0
+          ],
+          "recognized_number": "7",
+          "confidence": 69.0,
+          "confidence_level": "medium",
+          "all_matches": [
+            [
+              "7",
+              69.0
+            ]
+          ]
+        },
+        "correct": false
+      },
+      {
+        "position": [
+          7,
+          7
+        ],
+        "expected": 2,
+        "recognized": {
+          "has_content": true,
+          "contour_count": 2,
+          "contour_areas": [
+            1443.5,
+            986.5
+          ],
+          "recognized_number": "2",
+          "confidence": 66.0,
+          "confidence_level": "medium",
+          "all_matches": [
+            [
+              "2",
+              66.0
+            ]
+          ]
+        },
+        "correct": false
+      },
+      {
+        "position": [
+          8,
+          1
+        ],
+        "expected": 1,
+        "recognized": {
+          "has_content": true,
+          "contour_count": 5,
+          "contour_areas": [
+            0.0,
+            0.0,
+            0.0,
+            996.5,
+            999.5
+          ],
+          "recognized_number": "1",
+          "confidence": 62.0,
+          "confidence_level": "medium",
+          "all_matches": [
+            [
+              "1",
+              62.0
+            ]
+          ]
+        },
+        "correct": false
+      },
+      {
+        "position": [
+          8,
+          3
+        ],
+        "expected": 3,
+        "recognized": {
+          "has_content": true,
+          "contour_count": 5,
+          "contour_areas": [
+            0.0,
+            0.0,
+            0.0,
+            1532.0,
+            1171.0
+          ],
+          "recognized_number": "3",
+          "confidence": 63.0,
+          "confidence_level": "medium",
+          "all_matches": [
+            [
+              "3",
+              63.0
+            ]
+          ]
+        },
+        "correct": false
+      },
+      {
+        "position": [
+          8,
+          6
+        ],
+        "expected": 6,
+        "recognized": {
+          "has_content": true,
+          "contour_count": 3,
+          "contour_areas": [
+            0.0,
+            2720.5,
+            1600.0
+          ],
+          "recognized_number": "6",
+          "confidence": 78.0,
+          "confidence_level": "high",
+          "all_matches": [
+            [
+              "6",
+              78.0
+            ]
+          ]
+        },
+        "correct": false
+      }
+    ]
+  },
+  {
+    "grid": 2,
+    "accuracy": 0.0,
+    "correct_cells": 0,
+    "total_cells": 31,
+    "results": [
+      {
+        "position": [
+          0,
+          1
+        ],
+        "expected": 4,
+        "recognized": {
+          "has_content": true,
+          "contour_count": 2,
+          "contour_areas": [
+            1865.0,
+            1368.0
+          ],
+          "recognized_number": "1",
+          "confidence": 70.0,
+          "confidence_level": "high",
+          "all_matches": [
+            [
+              "4",
+              70.0
+            ]
+          ]
+        },
+        "correct": false
+      },
+      {
+        "position": [
+          0,
+          2
+        ],
+        "expected": 9,
+        "recognized": {
+          "has_content": true,
+          "contour_count": 2,
+          "contour_areas": [
+            2650.0,
+            1036.0
+          ],
+          "recognized_number": "9",
+          "confidence": 49.0,
+          "confidence_level": "medium",
+          "all_matches": [
+            [
+              "9",
+              49.0
+            ]
+          ]
+        },
+        "correct": false
+      },
+      {
+        "position": [
+          0,
+          3
+        ],
+        "expected": 2,
+        "recognized": {
+          "has_content": true,
+          "contour_count": 2,
+          "contour_areas": [
+            1359.0,
+            1534.5
+          ],
+          "recognized_number": "2",
+          "confidence": 68.0,
+          "confidence_level": "medium",
+          "all_matches": [
+            [
+              "2",
+              68.0
+            ]
+          ]
+        },
+        "correct": false
+      },
+      {
+        "position": [
+          0,
+          6
+        ],
+        "expected": 8,
+        "recognized": {
+          "has_content": true,
+          "contour_count": 2,
+          "contour_areas": [
+            3095.5,
+            1744.5
+          ],
+          "recognized_number": "8",
+          "confidence": 38.0,
+          "confidence_level": "low",
+          "all_matches": [
+            [
+              "8",
+              38.0
+            ]
+          ]
+        },
+        "correct": false
+      },
+      {
+        "position": [
+          1,
+          4
+        ],
+        "expected": 3,
+        "recognized": {
+          "has_content": true,
+          "contour_count": 2,
+          "contour_areas": [
+            1541.0,
+            1399.0
+          ],
+          "recognized_number": "3",
+          "confidence": 71.0,
+          "confidence_level": "high",
+          "all_matches": [
+            [
+              "3",
+              71.0
+            ]
+          ]
+        },
+        "correct": false
+      },
+      {
+        "position": [
+          1,
+          5
+        ],
+        "expected": 1,
+        "recognized": {
+          "has_content": true,
+          "contour_count": 2,
+          "contour_areas": [
+            866.5,
+            1789.5
+          ],
+          "recognized_number": null,
+          "confidence": 0,
+          "confidence_level": "failed",
+          "all_matches": []
+        },
+        "correct": false
+      },
+      {
+        "position": [
+          1,
+          7
+        ],
+        "expected": 6,
+        "recognized": {
+          "has_content": true,
+          "contour_count": 2,
+          "contour_areas": [
+            2712.5,
+            987.0
+          ],
+          "recognized_number": "6",
+          "confidence": 79.0,
+          "confidence_level": "high",
+          "all_matches": [
+            [
+              "6",
+              79.0
+            ]
+          ]
+        },
+        "correct": false
+      },
+      {
+        "position": [
+          2,
+          3
+        ],
+        "expected": 4,
+        "recognized": {
+          "has_content": true,
+          "contour_count": 2,
+          "contour_areas": [
+            1886.0,
+            1190.0
+          ],
+          "recognized_number": "1",
+          "confidence": 84.0,
+          "confidence_level": "high",
+          "all_matches": [
+            [
+              "4",
+              84.0
+            ]
+          ]
+        },
+        "correct": false
+      },
+      {
+        "position": [
+          2,
+          4
+        ],
+        "expected": 7,
+        "recognized": {
+          "has_content": true,
+          "contour_count": 2,
+          "contour_areas": [
+            1082.5,
+            1206.5
+          ],
+          "recognized_number": "7",
+          "confidence": 62.0,
+          "confidence_level": "medium",
+          "all_matches": [
+            [
+              "7",
+              62.0
+            ]
+          ]
+        },
+        "correct": false
+      },
+      {
+        "position": [
+          2,
+          5
+        ],
+        "expected": 9,
+        "recognized": {
+          "has_content": true,
+          "contour_count": 2,
+          "contour_areas": [
+            2725.5,
+            1596.5
+          ],
+          "recognized_number": "9",
+          "confidence": 47.0,
+          "confidence_level": "medium",
+          "all_matches": [
+            [
+              "9",
+              47.0
+            ]
+          ]
+        },
+        "correct": false
+      },
+      {
+        "position": [
+          3,
+          1
+        ],
+        "expected": 6,
+        "recognized": {
+          "has_content": true,
+          "contour_count": 2,
+          "contour_areas": [
+            2742.5,
+            1370.0
+          ],
+          "recognized_number": "6",
+          "confidence": 68.0,
+          "confidence_level": "medium",
+          "all_matches": [
+            [
+              "6",
+              68.0
+            ]
+          ]
+        },
+        "correct": false
+      },
+      {
+        "position": [
+          3,
+          2
+        ],
+        "expected": 1,
+        "recognized": {
+          "has_content": true,
+          "contour_count": 2,
+          "contour_areas": [
+            934.5,
+            1301.0
+          ],
+          "recognized_number": "41",
+          "confidence": 62.0,
+          "confidence_level": "medium",
+          "all_matches": [
+            [
+              "41",
+              62.0
+            ]
+          ]
+        },
+        "correct": false
+      },
+      {
+        "position": [
+          4,
+          0
+        ],
+        "expected": 5,
+        "recognized": {
+          "has_content": true,
+          "contour_count": 2,
+          "contour_areas": [
+            1695.0,
+            1182.0
+          ],
+          "recognized_number": "5",
+          "confidence": 60.0,
+          "confidence_level": "medium",
+          "all_matches": [
+            [
+              "5",
+              60.0
+            ]
+          ]
+        },
+        "correct": false
+      },
+      {
+        "position": [
+          4,
+          1
+        ],
+        "expected": 3,
+        "recognized": {
+          "has_content": true,
+          "contour_count": 2,
+          "contour_areas": [
+            1563.5,
+            1027.0
+          ],
+          "recognized_number": "3",
+          "confidence": 53.0,
+          "confidence_level": "medium",
+          "all_matches": [
+            [
+              "3",
+              53.0
+            ]
+          ]
+        },
+        "correct": false
+      },
+      {
+        "position": [
+          4,
+          3
+        ],
+        "expected": 9,
+        "recognized": {
+          "has_content": true,
+          "contour_count": 2,
+          "contour_areas": [
+            2678.0,
+            1191.0
+          ],
+          "recognized_number": "9",
+          "confidence": 37.0,
+          "confidence_level": "low",
+          "all_matches": [
+            [
+              "9",
+              37.0
+            ]
+          ]
+        },
+        "correct": false
+      },
+      {
+        "position": [
+          4,
+          8
+        ],
+        "expected": 4,
+        "recognized": {
+          "has_content": true,
+          "contour_count": 2,
+          "contour_areas": [
+            1920.5,
+            1192.5
+          ],
+          "recognized_number": "1",
+          "confidence": 25.0,
+          "confidence_level": "low",
+          "all_matches": [
+            [
+              "4",
+              25.0
+            ]
+          ]
+        },
+        "correct": false
+      },
+      {
+        "position": [
+          5,
+          0
+        ],
+        "expected": 8,
+        "recognized": {
+          "has_content": true,
+          "contour_count": 2,
+          "contour_areas": [
+            3093.5,
+            1371.0
+          ],
+          "recognized_number": "8",
+          "confidence": 66.0,
+          "confidence_level": "medium",
+          "all_matches": [
+            [
+              "8",
+              66.0
+            ]
+          ]
+        },
+        "correct": false
+      },
+      {
+        "position": [
+          5,
+          2
+        ],
+        "expected": 1,
+        "recognized": {
+          "has_content": true,
+          "contour_count": 2,
+          "contour_areas": [
+            1909.0,
+            860.5
+          ],
+          "recognized_number": "1",
+          "confidence": 83.0,
+          "confidence_level": "high",
+          "all_matches": [
+            [
+              "4",
+              83.0
+            ]
+          ]
+        },
+        "correct": false
+      },
+      {
+        "position": [
+          5,
+          3
+        ],
+        "expected": 1,
+        "recognized": {
+          "has_content": true,
+          "contour_count": 3,
+          "contour_areas": [
+            0.0,
+            799.5,
+            1381.0
+          ],
+          "recognized_number": "1",
+          "confidence": 65.0,
+          "confidence_level": "medium",
+          "all_matches": [
+            [
+              "1",
+              65.0
+            ]
+          ]
+        },
+        "correct": false
+      },
+      {
+        "position": [
+          5,
+          6
+        ],
+        "expected": 3,
+        "recognized": {
+          "has_content": true,
+          "contour_count": 2,
+          "contour_areas": [
+            1491.0,
+            1613.5
+          ],
+          "recognized_number": "3",
+          "confidence": 75.0,
+          "confidence_level": "high",
+          "all_matches": [
+            [
+              "3",
+              75.0
+            ]
+          ]
+        },
+        "correct": false
+      },
+      {
+        "position": [
+          6,
+          2
+        ],
+        "expected": 7,
+        "recognized": {
+          "has_content": true,
+          "contour_count": 2,
+          "contour_areas": [
+            1030.0,
+            995.0
+          ],
+          "recognized_number": "7",
+          "confidence": 79.0,
+          "confidence_level": "high",
+          "all_matches": [
+            [
+              "7",
+              79.0
+            ]
+          ]
+        },
+        "correct": false
+      },
+      {
+        "position": [
+          7,
+          2
+        ],
+        "expected": 8,
+        "recognized": {
+          "has_content": true,
+          "contour_count": 2,
+          "contour_areas": [
+            3134.5,
+            989.5
+          ],
+          "recognized_number": "8",
+          "confidence": 70.0,
+          "confidence_level": "high",
+          "all_matches": [
+            [
+              "8",
+              70.0
+            ]
+          ]
+        },
+        "correct": false
+      },
+      {
+        "position": [
+          7,
+          3
+        ],
+        "expected": 6,
+        "recognized": {
+          "has_content": true,
+          "contour_count": 2,
+          "contour_areas": [
+            2698.0,
+            1376.5
+          ],
+          "recognized_number": "6",
+          "confidence": 75.0,
+          "confidence_level": "high",
+          "all_matches": [
+            [
+              "6",
+              75.0
+            ]
+          ]
+        },
+        "correct": false
+      },
+      {
+        "position": [
+          7,
+          4
+        ],
+        "expected": 2,
+        "recognized": {
+          "has_content": true,
+          "contour_count": 2,
+          "contour_areas": [
+            1438.5,
+            1388.0
+          ],
+          "recognized_number": "2",
+          "confidence": 37.0,
+          "confidence_level": "low",
+          "all_matches": [
+            [
+              "2",
+              37.0
+            ]
+          ]
+        },
+        "correct": false
+      },
+      {
+        "position": [
+          7,
+          5
+        ],
+        "expected": 5,
+        "recognized": {
+          "has_content": true,
+          "contour_count": 2,
+          "contour_areas": [
+            1740.0,
+            1775.0
+          ],
+          "recognized_number": "5",
+          "confidence": 80.0,
+          "confidence_level": "high",
+          "all_matches": [
+            [
+              "5",
+              80.0
+            ]
+          ]
+        },
+        "correct": false
+      },
+      {
+        "position": [
+          7,
+          7
+        ],
+        "expected": 7,
+        "recognized": {
+          "has_content": true,
+          "contour_count": 2,
+          "contour_areas": [
+            1098.0,
+            956.5
+          ],
+          "recognized_number": "7",
+          "confidence": 71.0,
+          "confidence_level": "high",
+          "all_matches": [
+            [
+              "7",
+              71.0
+            ]
+          ]
+        },
+        "correct": false
+      },
+      {
+        "position": [
+          8,
+          0
+        ],
+        "expected": 6,
+        "recognized": {
+          "has_content": true,
+          "contour_count": 3,
+          "contour_areas": [
+            0.0,
+            2719.5,
+            1038.5
+          ],
+          "recognized_number": "6",
+          "confidence": 43.0,
+          "confidence_level": "medium",
+          "all_matches": [
+            [
+              "6",
+              43.0
+            ]
+          ]
+        },
+        "correct": false
+      },
+      {
+        "position": [
+          8,
+          1
+        ],
+        "expected": 5,
+        "recognized": {
+          "has_content": true,
+          "contour_count": 2,
+          "contour_areas": [
+            1792.0,
+            1000.5
+          ],
+          "recognized_number": "5",
+          "confidence": 74.0,
+          "confidence_level": "high",
+          "all_matches": [
+            [
+              "5",
+              74.0
+            ]
+          ]
+        },
+        "correct": false
+      },
+      {
+        "position": [
+          8,
+          2
+        ],
+        "expected": 3,
+        "recognized": {
+          "has_content": true,
+          "contour_count": 2,
+          "contour_areas": [
+            1553.0,
+            937.0
+          ],
+          "recognized_number": "3",
+          "confidence": 56.0,
+          "confidence_level": "medium",
+          "all_matches": [
+            [
+              "3",
+              56.0
+            ]
+          ]
+        },
+        "correct": false
+      },
+      {
+        "position": [
+          8,
+          6
+        ],
+        "expected": 9,
+        "recognized": {
+          "has_content": true,
+          "contour_count": 2,
+          "contour_areas": [
+            2743.5,
+            1606.0
+          ],
+          "recognized_number": "9",
+          "confidence": 31.0,
+          "confidence_level": "low",
+          "all_matches": [
+            [
+              "9",
+              31.0
+            ]
+          ]
+        },
+        "correct": false
+      },
+      {
+        "position": [
+          8,
+          7
+        ],
+        "expected": 2,
+        "recognized": {
+          "has_content": true,
+          "contour_count": 3,
+          "contour_areas": [
+            0.0,
+            1476.5,
+            809.0
+          ],
+          "recognized_number": "2",
+          "confidence": 62.0,
+          "confidence_level": "medium",
+          "all_matches": [
+            [
+              "2",
+              62.0
+            ]
+          ]
+        },
+        "correct": false
+      }
+    ]
+  },
+  {
+    "grid": 3,
+    "accuracy": 0.0,
+    "correct_cells": 0,
+    "total_cells": 32,
+    "results": [
+      {
+        "position": [
+          0,
+          0
+        ],
+        "expected": 7,
+        "recognized": {
+          "has_content": true,
+          "contour_count": 3,
+          "contour_areas": [
+            1024.0,
+            1520.0,
+            52.0
+          ],
+          "recognized_number": null,
+          "confidence": 0,
+          "confidence_level": "failed",
+          "all_matches": [
+            [
+              "7",
+              0.0
+            ]
+          ]
+        },
+        "correct": false
+      },
+      {
+        "position": [
+          0,
+          3
+        ],
+        "expected": 4,
+        "recognized": {
+          "has_content": true,
+          "contour_count": 2,
+          "contour_areas": [
+            1877.0,
+            1536.5
+          ],
+          "recognized_number": "1",
+          "confidence": 79.0,
+          "confidence_level": "high",
+          "all_matches": [
+            [
+              "4",
+              79.0
+            ]
+          ]
+        },
+        "correct": false
+      },
+      {
+        "position": [
+          0,
+          8
+        ],
+        "expected": 5,
+        "recognized": {
+          "has_content": true,
+          "contour_count": 3,
+          "contour_areas": [
+            1631.5,
+            1533.0,
+            35.5
+          ],
+          "recognized_number": null,
+          "confidence": 0,
+          "confidence_level": "failed",
+          "all_matches": [
+            [
+              "5",
+              12.0
+            ]
+          ]
+        },
+        "correct": false
+      },
+      {
+        "position": [
+          1,
+          0
+        ],
+        "expected": 8,
+        "recognized": {
+          "has_content": true,
+          "contour_count": 2,
+          "contour_areas": [
+            3143.5,
+            1371.5
+          ],
+          "recognized_number": "8",
+          "confidence": 68.0,
+          "confidence_level": "medium",
+          "all_matches": [
+            [
+              "8",
+              68.0
+            ]
+          ]
+        },
+        "correct": false
+      },
+      {
+        "position": [
+          1,
+          1
+        ],
+        "expected": 6,
+        "recognized": {
+          "has_content": true,
+          "contour_count": 2,
+          "contour_areas": [
+            2734.5,
+            1200.0
+          ],
+          "recognized_number": "6",
+          "confidence": 72.0,
+          "confidence_level": "high",
+          "all_matches": [
+            [
+              "6",
+              72.0
+            ]
+          ]
+        },
+        "correct": false
+      },
+      {
+        "position": [
+          1,
+          3
+        ],
+        "expected": 7,
+        "recognized": {
+          "has_content": true,
+          "contour_count": 2,
+          "contour_areas": [
+            1080.5,
+            1381.5
+          ],
+          "recognized_number": "7",
+          "confidence": 73.0,
+          "confidence_level": "high",
+          "all_matches": [
+            [
+              "7",
+              73.0
+            ]
+          ]
+        },
+        "correct": false
+      },
+      {
+        "position": [
+          2,
+          0
+        ],
+        "expected": 3,
+        "recognized": {
+          "has_content": true,
+          "contour_count": 2,
+          "contour_areas": [
+            1549.0,
+            1181.0
+          ],
+          "recognized_number": "3",
+          "confidence": 59.0,
+          "confidence_level": "medium",
+          "all_matches": [
+            [
+              "3",
+              59.0
+            ]
+          ]
+        },
+        "correct": false
+      },
+      {
+        "position": [
+          2,
+          3
+        ],
+        "expected": 9,
+        "recognized": {
+          "has_content": true,
+          "contour_count": 2,
+          "contour_areas": [
+            2685.0,
+            1190.0
+          ],
+          "recognized_number": "9",
+          "confidence": 46.0,
+          "confidence_level": "medium",
+          "all_matches": [
+            [
+              "9",
+              46.0
+            ]
+          ]
+        },
+        "correct": false
+      },
+      {
+        "position": [
+          2,
+          5
+        ],
+        "expected": 2,
+        "recognized": {
+          "has_content": true,
+          "contour_count": 2,
+          "contour_areas": [
+            1414.5,
+            1597.0
+          ],
+          "recognized_number": "2",
+          "confidence": 67.0,
+          "confidence_level": "medium",
+          "all_matches": [
+            [
+              "2",
+              67.0
+            ]
+          ]
+        },
+        "correct": false
+      },
+      {
+        "position": [
+          3,
+          3
+        ],
+        "expected": 3,
+        "recognized": {
+          "has_content": true,
+          "contour_count": 2,
+          "contour_areas": [
+            1556.0,
+            1582.0
+          ],
+          "recognized_number": "3",
+          "confidence": 50.0,
+          "confidence_level": "medium",
+          "all_matches": [
+            [
+              "3",
+              50.0
+            ]
+          ]
+        },
+        "correct": false
+      },
+      {
+        "position": [
+          3,
+          7
+        ],
+        "expected": 8,
+        "recognized": {
+          "has_content": true,
+          "contour_count": 2,
+          "contour_areas": [
+            3147.0,
+            1182.0
+          ],
+          "recognized_number": "8",
+          "confidence": 72.0,
+          "confidence_level": "high",
+          "all_matches": [
+            [
+              "8",
+              72.0
+            ]
+          ]
+        },
+        "correct": false
+      },
+      {
+        "position": [
+          3,
+          8
+        ],
+        "expected": 1,
+        "recognized": {
+          "has_content": true,
+          "contour_count": 2,
+          "contour_areas": [
+            807.5,
+            1579.0
+          ],
+          "recognized_number": "1",
+          "confidence": 53.0,
+          "confidence_level": "medium",
+          "all_matches": [
+            [
+              "4",
+              53.0
+            ]
+          ]
+        },
+        "correct": false
+      },
+      {
+        "position": [
+          4,
+          0
+        ],
+        "expected": 1,
+        "recognized": {
+          "has_content": true,
+          "contour_count": 2,
+          "contour_areas": [
+            863.5,
+            1183.0
+          ],
+          "recognized_number": "1",
+          "confidence": 58.0,
+          "confidence_level": "medium",
+          "all_matches": [
+            [
+              "1",
+              58.0
+            ]
+          ]
+        },
+        "correct": false
+      },
+      {
+        "position": [
+          4,
+          2
+        ],
+        "expected": 9,
+        "recognized": {
+          "has_content": true,
+          "contour_count": 2,
+          "contour_areas": [
+            2688.5,
+            838.0
+          ],
+          "recognized_number": "9",
+          "confidence": 23.0,
+          "confidence_level": "low",
+          "all_matches": [
+            [
+              "9",
+              23.0
+            ]
+          ]
+        },
+        "correct": false
+      },
+      {
+        "position": [
+          4,
+          6
+        ],
+        "expected": 6,
+        "recognized": {
+          "has_content": true,
+          "contour_count": 2,
+          "contour_areas": [
+            2714.0,
+            1707.0
+          ],
+          "recognized_number": "6",
+          "confidence": 77.0,
+          "confidence_level": "high",
+          "all_matches": [
+            [
+              "6",
+              77.0
+            ]
+          ]
+        },
+        "correct": false
+      },
+      {
+        "position": [
+          4,
+          7
+        ],
+        "expected": 3,
+        "recognized": {
+          "has_content": true,
+          "contour_count": 2,
+          "contour_areas": [
+            1563.5,
+            839.0
+          ],
+          "recognized_number": "3",
+          "confidence": 78.0,
+          "confidence_level": "high",
+          "all_matches": [
+            [
+              "3",
+              78.0
+            ]
+          ]
+        },
+        "correct": false
+      },
+      {
+        "position": [
+          4,
+          8
+        ],
+        "expected": 2,
+        "recognized": {
+          "has_content": true,
+          "contour_count": 2,
+          "contour_areas": [
+            1469.0,
+            1192.5
+          ],
+          "recognized_number": null,
+          "confidence": 0,
+          "confidence_level": "failed",
+          "all_matches": [
+            [
+              "2",
+              7.0
+            ]
+          ]
+        },
+        "correct": false
+      },
+      {
+        "position": [
+          5,
+          3
+        ],
+        "expected": 8,
+        "recognized": {
+          "has_content": true,
+          "contour_count": 3,
+          "contour_areas": [
+            0.0,
+            3077.5,
+            1381.0
+          ],
+          "recognized_number": "8",
+          "confidence": 67.0,
+          "confidence_level": "medium",
+          "all_matches": [
+            [
+              "8",
+              67.0
+            ]
+          ]
+        },
+        "correct": false
+      },
+      {
+        "position": [
+          5,
+          4
+        ],
+        "expected": 1,
+        "recognized": {
+          "has_content": true,
+          "contour_count": 2,
+          "contour_areas": [
+            800.0,
+            1403.0
+          ],
+          "recognized_number": "1",
+          "confidence": 59.0,
+          "confidence_level": "medium",
+          "all_matches": [
+            [
+              "1",
+              59.0
+            ]
+          ]
+        },
+        "correct": false
+      },
+      {
+        "position": [
+          5,
+          5
+        ],
+        "expected": 6,
+        "recognized": {
+          "has_content": true,
+          "contour_count": 2,
+          "contour_areas": [
+            2676.0,
+            1790.5
+          ],
+          "recognized_number": "6",
+          "confidence": 81.0,
+          "confidence_level": "high",
+          "all_matches": [
+            [
+              "6",
+              81.0
+            ]
+          ]
+        },
+        "correct": false
+      },
+      {
+        "position": [
+          5,
+          7
+        ],
+        "expected": 5,
+        "recognized": {
+          "has_content": true,
+          "contour_count": 3,
+          "contour_areas": [
+            0.0,
+            1636.0,
+            914.5
+          ],
+          "recognized_number": "5",
+          "confidence": 73.0,
+          "confidence_level": "high",
+          "all_matches": [
+            [
+              "5",
+              73.0
+            ]
+          ]
+        },
+        "correct": false
+      },
+      {
+        "position": [
+          6,
+          0
+        ],
+        "expected": 9,
+        "recognized": {
+          "has_content": true,
+          "contour_count": 2,
+          "contour_areas": [
+            2687.5,
+            1531.0
+          ],
+          "recognized_number": "9",
+          "confidence": 28.0,
+          "confidence_level": "low",
+          "all_matches": [
+            [
+              "9",
+              28.0
+            ]
+          ]
+        },
+        "correct": false
+      },
+      {
+        "position": [
+          6,
+          1
+        ],
+        "expected": 3,
+        "recognized": {
+          "has_content": true,
+          "contour_count": 2,
+          "contour_areas": [
+            1537.0,
+            1370.0
+          ],
+          "recognized_number": "3",
+          "confidence": 48.0,
+          "confidence_level": "medium",
+          "all_matches": [
+            [
+              "3",
+              48.0
+            ]
+          ]
+        },
+        "correct": false
+      },
+      {
+        "position": [
+          6,
+          3
+        ],
+        "expected": 2,
+        "recognized": {
+          "has_content": true,
+          "contour_count": 2,
+          "contour_areas": [
+            1393.0,
+            1545.0
+          ],
+          "recognized_number": "2",
+          "confidence": 65.0,
+          "confidence_level": "medium",
+          "all_matches": [
+            [
+              "2",
+              65.0
+            ]
+          ]
+        },
+        "correct": false
+      },
+      {
+        "position": [
+          6,
+          4
+        ],
+        "expected": 8,
+        "recognized": {
+          "has_content": true,
+          "contour_count": 2,
+          "contour_areas": [
+            3112.0,
+            1556.5
+          ],
+          "recognized_number": null,
+          "confidence": 0,
+          "confidence_level": "failed",
+          "all_matches": []
+        },
+        "correct": false
+      },
+      {
+        "position": [
+          6,
+          5
+        ],
+        "expected": 5,
+        "recognized": {
+          "has_content": true,
+          "contour_count": 2,
+          "contour_areas": [
+            1687.5,
+            1936.5
+          ],
+          "recognized_number": "5",
+          "confidence": 81.0,
+          "confidence_level": "high",
+          "all_matches": [
+            [
+              "5",
+              81.0
+            ]
+          ]
+        },
+        "correct": false
+      },
+      {
+        "position": [
+          6,
+          6
+        ],
+        "expected": 7,
+        "recognized": {
+          "has_content": true,
+          "contour_count": 2,
+          "contour_areas": [
+            1028.5,
+            1753.0
+          ],
+          "recognized_number": "7",
+          "confidence": 79.0,
+          "confidence_level": "high",
+          "all_matches": [
+            [
+              "7",
+              79.0
+            ]
+          ]
+        },
+        "correct": false
+      },
+      {
+        "position": [
+          7,
+          0
+        ],
+        "expected": 5,
+        "recognized": {
+          "has_content": true,
+          "contour_count": 2,
+          "contour_areas": [
+            1749.5,
+            1363.5
+          ],
+          "recognized_number": "5",
+          "confidence": 66.0,
+          "confidence_level": "medium",
+          "all_matches": [
+            [
+              "5",
+              66.0
+            ]
+          ]
+        },
+        "correct": false
+      },
+      {
+        "position": [
+          7,
+          4
+        ],
+        "expected": 1,
+        "recognized": {
+          "has_content": true,
+          "contour_count": 2,
+          "contour_areas": [
+            1846.0,
+            1388.0
+          ],
+          "recognized_number": "1",
+          "confidence": 65.0,
+          "confidence_level": "medium",
+          "all_matches": [
+            [
+              "4",
+              65.0
+            ]
+          ]
+        },
+        "correct": false
+      },
+      {
+        "position": [
+          7,
+          5
+        ],
+        "expected": 7,
+        "recognized": {
+          "has_content": true,
+          "contour_count": 2,
+          "contour_areas": [
+            1083.5,
+            1775.5
+          ],
+          "recognized_number": "7",
+          "confidence": 82.0,
+          "confidence_level": "high",
+          "all_matches": [
+            [
+              "7",
+              82.0
+            ]
+          ]
+        },
+        "correct": false
+      },
+      {
+        "position": [
+          7,
+          6
+        ],
+        "expected": 1,
+        "recognized": {
+          "has_content": true,
+          "contour_count": 2,
+          "contour_areas": [
+            916.0,
+            1608.5
+          ],
+          "recognized_number": null,
+          "confidence": 0,
+          "confidence_level": "failed",
+          "all_matches": []
+        },
+        "correct": false
+      },
+      {
+        "position": [
+          8,
+          0
+        ],
+        "expected": 4,
+        "recognized": {
+          "has_content": true,
+          "contour_count": 2,
+          "contour_areas": [
+            1872.0,
+            1171.5
+          ],
+          "recognized_number": "1",
+          "confidence": 82.0,
+          "confidence_level": "high",
+          "all_matches": [
+            [
+              "4",
+              82.0
+            ]
+          ]
+        },
+        "correct": false
+      }
+    ]
+  }
+]
