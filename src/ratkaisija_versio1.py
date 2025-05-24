@@ -1,4 +1,4 @@
-# ratkaisija versio 2
+# ratkaisija versio 1
 #
 # sudoku ruudukko on sellainen, jossa on 9 riviä ja 9 saraketta
 # käytämme koordinaatteja x ja y
@@ -46,9 +46,7 @@ def lue_ruudukko(data):
             else:
                 rivi_lista.append(int(numero))
         ruudukko.append(rivi_lista)
-
-    # transponoi ruudukon x ja y -akselit
-    return list(zip(*ruudukko))
+    return ruudukko
 
 
 VIIVA = " +-------+-------+-------+"
@@ -142,7 +140,7 @@ def etsi_paikkaa_osassa(ruudukko, numero, osa):
         x = x_lisays + xx
         for yy in range(3):
             y = y_lisays + yy
-            print(f"x: {x} y: {y} arvo: {ruudukko[x][y]} laillinen: {onko_laillinen_paikka(ruudukko, numero, y, x)}")
+
             if onko_laillinen_paikka(ruudukko, numero, x, y):
                 lailliset_paikat.append((x, y))
             if len(lailliset_paikat) == 2:
@@ -327,176 +325,6 @@ def etsi_joka_pystyrivilta_paikkaa(ruudukko, lisaykset, kaytetyt_paikat):
             kaytetyt_paikat.add((x, y))
             return
 
-
-def osa(ruutu):
-    osa_x = ruutu[0] // 3
-    osa_y = ruutu[1] // 3
-    return (osa_x, osa_y)
-
-# Nuppu keksi Pallon käsitteen
-#
-# Pallo on sellainen pysty tai vaaka-alue yhden osan sisällä, josta tiedetään, 
-# että sen ruudoissa on tiettyjä numeroita. Pallon koko voi olla 2 tai 3 ruutua.
-# Kun pallo on täynnä numeroita, sitä voidaan hyödyntää sudokun ratkaisemiseen.
-# Riviltä tai sarakkeelta voidaan pallon avulla poissulkea pallon numerot, 
-# vaikka niiden tarkka sijainti ei ole tiedossa.
-# Pallon numeroista voi myös päätellä, että pallon numeroita ei tule saman osan
-# sisällä oleviin muihin riveihin tai sarakkeisiin.
-class Pallo:
-    osa: tuple
-    numerot: list
-    ruudut: list
-    vaakasuunta: bool
-
-    def __init__(self, osa, numero, ruudut, vaakasuunta):
-        self.osa = osa
-        self.numerot = [numero]
-        self.ruudut = ruudut
-        self.vaakasuunta = vaakasuunta
-
-    def __str__(self):
-        return f"Pallon vaakasuunta {self.vaakasuunta} osa {self.osa[0]} {self.osa[1]} numero {self.numerot} ruudut {self.ruudut}"
-
-    def taynna(self):
-        return len(self.ruudut) == len(self.numerot)
-    
-    def lisaa_numero(self, numero, ruutu):
-        if numero in self.numerot:
-            return
-        self.numerot.append(numero)
-
-    def on_numero(self, numero):
-        return numero in self.numerot
-    
-    def voiko_ruudun_lisata(self, ruutu):
-        if ruutu in self.ruudut:
-            return False
-        ruutuOsa = osa(ruutu)
-        if ruutuOsa != self.osa:
-            return False
-        if len(self.ruudut) == 3:
-            return False
-        if self.vaakasuunta:
-            y = ruutu[1]
-            x = ruutu[0]
-            for i in range(3):
-                xx = self.osa[0]*3 + i
-                mukana = False
-                for n in self.ruudut:
-                    if n[0] == xx:
-                        mukana = True
-                        break
-                if not mukana:
-                    return True
-        if not self.vaakasuunta:
-            y = ruutu[1]
-            x = ruutu[0]
-            for i in range(3):
-                yy = self.osa[1]*3 + i
-                mukana = False
-                for n in self.ruudut:
-                    if n[1] == yy:
-                        mukana = True
-                        break
-                if not mukana:
-                    return True
-        return False
-    
-    def lisaa_numero(self, numero, ruudut):
-        print(f"lisataan numero {numero} palloon jonka ruudut ovat {self.ruudut}")  
-        for ruutu in ruudut:
-            if self.voiko_ruudun_lisata(ruutu):
-                self.ruudut.append(ruutu)
-            else:
-                print(f"ruutua {ruutu} ei voi lisata palloon jonka ruudut ovat {self.ruudut}")
-        self.numerot.append(numero)
-
-    def samat_rivit(self, ruudut):
-        for ruutu in ruudut:
-            ruutu_y = ruutu[1]
-            for pallo_ruutu in self.ruudut:
-                if pallo_ruutu[1] != ruutu_y:
-                    return False
-        return True
-
-
-# pitäisi käydä osan joka ruutu, ja jos on eri vaakarivi ja laillinen paikka, niin ei sovi
-# return false
-# jos on sama vaakarivi, ja laillinen paikka, niin sopii
-# kun kaikki osan numerot on käyty läpi, return true
-def numero_sopii_yhteen_vaakaan_osassa(ruudukko, numero, osa_x, osa_y):
-    ruudut = []
-    vaaka_y = None
-    for i in range(3):
-        y = osa_y*3 + i
-        for j in range(3):
-            x = osa_x*3 + j
-            print(f"vaaka_y: {vaaka_y} y: {y} x: {x} merkki: {ruudukko[x][y]}")
-            if ruudukko[x][y] == TYHJA:
-                laillinen = onko_laillinen_paikka(ruudukko, numero, x, y) 
-                if laillinen and vaaka_y is None or vaaka_y == y:
-                    print(f"laillinen vaaka_y: {vaaka_y} y: {y} x: {x}")
-                    vaaka_y = y
-                    ruudut.append((x, y))
-                    print(f"ruudut: {ruudut}")               
-
-                elif laillinen:
-                    # ei sovi, koska toiseen vaakariviin löytyi laillinen paikka
-                    return None
-    if len(ruudut) < 2:
-        return None
-    return Pallo((osa_x, osa_y), numero, ruudut, vaakasuunta=True)
-
-def numero_sopii_yhteen_pystyyn_osassa(ruudukko, numero, osa_x, osa_y):
-    ruudut = []
-    pysty_x = None
-    for i in range(3):
-        x = osa_x*3 + i
-        for j in range(3):
-            y = osa_y*3 + j
-            if ruudukko[x][y] == TYHJA:
-                laillinen = onko_laillinen_paikka(ruudukko, numero, x, y) 
-                if laillinen and pysty_x is None or pysty_x == x:
-                    pysty_x = x
-                    ruudut.append((x, y))
-                elif laillinen:
-                    # ei sovi, koska toiseen pystysarakkeeseen löytyi laillinen paikka
-                    return None
-    if len(ruudut) < 2:
-        return None
-    return Pallo((osa_x, osa_y), numero, ruudut, vaakasuunta=False)
-
-
-def etsi_pallot(ruudukko):
-    pallot = []
-    for osa_x in range(3):
-        for osa_y in range(3):
-            for numero in range(1, 10):
-                vaaka_pallo = numero_sopii_yhteen_vaakaan_osassa(ruudukko, numero, osa_x, osa_y)
-
-                if vaaka_pallo:
-                    sopiva = poimi_vanha_sopiva_pallo(numero, pallot, vaaka_pallo)
-                    if sopiva and not sopiva.on_numero(numero):
-                        sopiva.lisaa_numero(numero, vaaka_pallo.ruudut)
-                    else:
-                        pallot.append(vaaka_pallo)
-
-                pysty_pallo = numero_sopii_yhteen_pystyyn_osassa(ruudukko, numero, osa_x, osa_y)
-                if pysty_pallo:
-                    sopiva = poimi_vanha_sopiva_pallo(numero, pallot, pysty_pallo)
-                    if sopiva and not sopiva.on_numero(numero):
-                        sopiva.lisaa_numero(numero, pysty_pallo.ruudut)
-                    else:
-                        pallot.append(pysty_pallo)
-    return pallot
-
-def poimi_vanha_sopiva_pallo(numero, pallot, uusi_pallo):
-    for pallo in pallot:
-        if pallo.vaakasuunta == uusi_pallo.vaakasuunta and pallo.osa == uusi_pallo.osa:
-            if pallo.samat_rivit(uusi_pallo.ruudut) and not pallo.on_numero(numero):
-                return pallo
-    return None
-
 def kokeile_rivi_kerrallaan_numeroita(ruudukko):
 
     # etene rivi kerrallaan, jos numero on numero,
@@ -510,8 +338,7 @@ def kokeile_rivi_kerrallaan_numeroita(ruudukko):
     if len(lisaykset) == 0: etsi_joka_vaakarivilta_paikkaa(ruudukko, lisaykset, kaytetyt_paikat)
     if len(lisaykset) == 0: etsi_joka_pystyrivilta_paikkaa(ruudukko, lisaykset, kaytetyt_paikat)
     if len(lisaykset) == 0: etsi_joka_numerolle_paikkaa_viereisista_osista(ruudukko, lisaykset, kaytetyt_paikat)
-    if len(lisaykset) == 0: 
-        pallot = etsi_pallot(ruudukko) 
+
     if len(lisaykset) == 0:
         return 0
     
